@@ -22,7 +22,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.qterragroup.com'),
-  title: "QTerra | Integrated Professional Services",
+  title: "QTerra | Integrated Professional Services in Africa",
   description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
   icons: {
     icon: [
@@ -35,22 +35,22 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   openGraph: {
     url: 'https://www.qterragroup.com',
-    title: "QTerra | Integrated Professional Services",
+    title: "QTerra | Integrated Professional Services in Africa",
     description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
     images: [
       {
-        url: 'https://res.cloudinary.com/dioiyb833/image/upload/v1779467423/qterra-og_lc12nj.png',
+        url: 'https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png',
         width: 1200,
         height: 630,
-        alt: 'QTerra | Integrated Professional Services',
+        alt: 'QTerra | Integrated Professional Services in Africa',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "QTerra | Integrated Professional Services",
+    title: "QTerra | Integrated Professional Services in Africa",
     description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
-    images: ['https://res.cloudinary.com/dioiyb833/image/upload/v1779467423/qterra-og_lc12nj.png'],
+    images: ['https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png'],
   },
 };
 
