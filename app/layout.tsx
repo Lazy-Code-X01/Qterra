@@ -37,11 +37,20 @@ export const metadata: Metadata = {
     url: 'https://www.qterragroup.com',
     title: "QTerra | Integrated Professional Services",
     description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dioiyb833/image/upload/v1779467423/qterra-og_lc12nj.png',
+        width: 1200,
+        height: 630,
+        alt: 'QTerra | Integrated Professional Services',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: "QTerra | Integrated Professional Services",
     description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
+    images: ['https://res.cloudinary.com/dioiyb833/image/upload/v1779467423/qterra-og_lc12nj.png'],
   },
 };
 
