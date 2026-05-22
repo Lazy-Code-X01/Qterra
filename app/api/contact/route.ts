@@ -7,10 +7,15 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("Missing RESEND_API_KEY in environment variables. Email sending is disabled.");
+      return Response.json({ error: "Email sending is temporarily unavailable" }, { status: 503 });
+    }
+
+    const resend = new Resend(apiKey);
     const body = await request.json();
     const { fullName, organization, email, phone, service, message } = body;
 
