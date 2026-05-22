@@ -26,10 +26,7 @@ export default async function Image() {
     console.error('Error loading logo for dynamic OG image:', error);
   }
 
-  // Load the Sora font directly from Google Web Fonts
-  const soraFont = await fetch(
-    new URL('https://fonts.gstatic.com/s/sora/v12/xMQ1GF3y9e431DZC2g.ttf')
-  ).then((res) => res.arrayBuffer());
+
 
   return new ImageResponse(
     (
@@ -169,14 +166,6 @@ export default async function Image() {
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: 'Sora',
-          data: soraFont,
-          style: 'normal',
-          weight: 700,
-        },
-      ],
     }
   );
 }
