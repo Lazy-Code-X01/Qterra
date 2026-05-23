@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { CalendarDays, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const HERO_IMAGE_PATH = "/images/qterra_hero_person.png";
@@ -75,16 +75,16 @@ export default function Hero() {
             transition={{ delay: 0.45, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
             className="flex flex-wrap gap-3"
           >
-            <a href="#services">
+            <a href="/contact">
               <button className="inline-flex items-center gap-2 bg-spark text-qterra-black font-inter font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#bce03e] transition-colors duration-200">
                 Get Consulting
-                <ArrowUpRight className="h-4 w-4" />
+                <CalendarDays className="h-4 w-4" />
               </button>
             </a>
-            <a href="#about">
+            <a href="/services">
               <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-medium text-sm px-6 py-3 rounded-full border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
-                Learn More
-                <ArrowUpRight className="h-4 w-4" />
+                Our Services
+                <ArrowRight className="h-4 w-4" />
               </button>
             </a>
           </motion.div>

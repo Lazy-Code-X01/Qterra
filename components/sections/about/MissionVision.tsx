@@ -10,7 +10,7 @@ export default function MissionVision() {
 
         {/* MISSION — dark left */}
         <motion.div
-          className="bg-qterra-black px-10 sm:px-16 py-20 flex flex-col justify-start"
+          className="bg-qterra-black px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex flex-col justify-start"
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
@@ -29,7 +29,7 @@ export default function MissionVision() {
                 <div className="h-12 w-12 rounded-xl bg-spark/10 flex items-center justify-center">
                   <Compass className="h-6 w-6 text-spark" />
                 </div>
-                <h3 className="font-sora font-bold text-[32px] leading-[1.2] tracking-[-0.5px] text-white">
+                <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-white">
                   To deliver integrated professional services that strengthen organizations and drive sustainable growth across Africa.
                 </h3>
                 <div className="w-12 h-[2px] bg-spark" />
@@ -43,7 +43,7 @@ export default function MissionVision() {
 
         {/* VISION — spark right */}
         <motion.div
-          className="bg-spark px-10 sm:px-16 py-20 flex flex-col justify-start"
+          className="bg-spark px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex flex-col justify-start"
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
@@ -62,7 +62,7 @@ export default function MissionVision() {
                 <div className="h-12 w-12 rounded-xl bg-qterra-black/10 flex items-center justify-center">
                   <Eye className="h-6 w-6 text-qterra-black" />
                 </div>
-                <h3 className="font-sora font-bold text-[32px] leading-[1.2] tracking-[-0.5px] text-qterra-black">
+                <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-qterra-black">
                   To be Africa&apos;s most trusted integrated professional services firm, known for excellence and results that endure.
                 </h3>
                 <div className="w-12 h-[2px] bg-qterra-black/30" />

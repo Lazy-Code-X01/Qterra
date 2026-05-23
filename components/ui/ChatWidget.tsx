@@ -194,8 +194,8 @@ export default function ChatWidget({ open, onClose }: { open: boolean; onClose: 
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.97 }}
         transition={{ duration: 0.25, ease }}
-        className="fixed bottom-24 right-6 z-50 w-[340px] sm:w-[360px] rounded-2xl overflow-hidden shadow-2xl flex flex-col"
-        style={{ maxHeight: "520px" }}
+        className="fixed bottom-24 right-4 z-50 w-[calc(100vw-2rem)] max-w-[360px] rounded-2xl overflow-hidden shadow-2xl flex flex-col"
+        style={{ maxHeight: "min(520px, calc(100dvh - 8rem))" }}
       >
         {/* Header */}
         <div className="bg-qterra-black px-5 py-4 flex items-center justify-between border-b border-white/[0.08] shrink-0">
@@ -208,7 +208,7 @@ export default function ChatWidget({ open, onClose }: { open: boolean; onClose: 
               <p className="font-inter text-[11px] text-white/40 mt-0.5">Typically replies instantly</p>
             </div>
           </div>
-          <button onClick={onClose} className="h-8 w-8 rounded-full flex items-center justify-center hover:bg-white/[0.08] transition-colors">
+          <button onClick={onClose} className="h-10 w-10 rounded-full flex items-center justify-center hover:bg-white/[0.08] transition-colors">
             <X className="h-4 w-4 text-white/60" />
           </button>
         </div>
@@ -262,7 +262,7 @@ export default function ChatWidget({ open, onClose }: { open: boolean; onClose: 
                 <button
                   key={r}
                   onClick={() => handleReply(r)}
-                  className="font-inter font-medium text-[12px] px-3.5 py-1.5 rounded-full border border-qterra-black/20 bg-white text-qterra-black hover:bg-spark hover:border-spark hover:text-qterra-black transition-all duration-150"
+                  className="font-inter font-medium text-[13px] px-4 py-2.5 rounded-full border border-qterra-black/20 bg-white text-qterra-black hover:bg-spark hover:border-spark hover:text-qterra-black transition-all duration-150"
                 >
                   {r}
                 </button>

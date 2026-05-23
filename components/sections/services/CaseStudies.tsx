@@ -105,7 +105,7 @@ export default function CaseStudies() {
                 <button
                   key={f}
                   onClick={() => setActiveFilter(f)}
-                  className={`font-inter font-medium text-[13px] px-4 py-1.5 rounded-full transition-all duration-200 ${
+                  className={`font-inter font-medium text-[13px] px-4 py-2.5 rounded-full transition-all duration-200 ${
                     isActive
                       ? "bg-spark text-qterra-black font-semibold"
                       : "text-[#666] hover:text-qterra-black"

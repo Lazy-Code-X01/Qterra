@@ -72,7 +72,7 @@ export default function ContactForm() {
       <section className="bg-[#F8F8F4] py-16">
         <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
           <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.4, ease }}
-            className="max-w-xl mx-auto bg-qterra-black rounded-[24px] p-14 flex flex-col items-center text-center border border-white/[0.08]">
+            className="max-w-xl mx-auto bg-qterra-black rounded-[24px] px-6 py-10 sm:p-14 flex flex-col items-center text-center border border-white/[0.08]">
             <CheckCircle2 className="h-12 w-12 text-spark mb-5" />
             <h3 className="font-sora font-semibold text-[24px] text-white">Message Sent!</h3>
             <p className="font-inter text-[15px] text-white/55 mt-3 max-w-sm leading-[1.7]">
@@ -96,7 +96,7 @@ export default function ContactForm() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5, ease }}
-          className="relative max-w-2xl mx-auto bg-qterra-black rounded-[24px] px-10 py-12 overflow-hidden border border-white/[0.08]"
+          className="relative max-w-2xl mx-auto bg-qterra-black rounded-[24px] px-6 py-8 sm:px-10 sm:py-12 overflow-hidden border border-white/[0.08]"
         >
           {/* Dot grid */}
           <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: "radial-gradient(circle, #fff 1px, transparent 1px)", backgroundSize: "24px 24px" }} />

@@ -24,7 +24,7 @@ export default function ServiceDetailHero({ breadcrumb, title }: Props) {
           <span className="text-white/80">{breadcrumb}</span>
         </motion.div>
         {/* H1 */}
-        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.15, ease }} className="font-sora font-bold text-[56px] leading-[1.1] tracking-[-1.5px] text-white max-w-[760px]">
+        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.15, ease }} className="font-sora font-bold text-[32px] sm:text-[44px] lg:text-[56px] leading-[1.1] tracking-[-1px] sm:tracking-[-1.5px] text-white max-w-[760px] w-full">
           {title}
         </motion.h1>
         {/* Divider */}

@@ -58,12 +58,12 @@ export default function ServicesTiers() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5, ease }}
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-16"
         >
           <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
             Service Architecture
           </p>
-          <h2 className="font-sora font-bold text-[40px] text-white tracking-[-1px] mt-2">
+          <h2 className="font-sora font-bold text-[28px] sm:text-[40px] text-white tracking-[-1px] mt-2">
             How Our Services Are Structured
           </h2>
         </motion.div>
@@ -98,7 +98,7 @@ export default function ServicesTiers() {
                   <button
                     key={t.label}
                     onClick={() => setActive(i)}
-                    className="relative flex items-start gap-5 text-left py-7 group"
+                    className="relative flex items-start gap-5 text-left py-5 sm:py-7 group"
                   >
                     {/* Dot */}
                     <div className={`relative z-10 h-10 w-10 rounded-full border flex items-center justify-center shrink-0 transition-all duration-300 ${
@@ -165,7 +165,7 @@ export default function ServicesTiers() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.4, ease }}
-                className="relative p-10"
+                className="relative p-5 sm:p-10"
               >
                 {/* Corner brackets */}
                 {/* Top-left */}
@@ -182,14 +182,14 @@ export default function ServicesTiers() {
                     <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
                       {tier.label}
                     </p>
-                    <h3 className="font-sora font-bold text-[32px] text-white tracking-[-0.5px] mt-1">
+                    <h3 className="font-sora font-bold text-[24px] sm:text-[32px] text-white tracking-[-0.5px] mt-1">
                       {tier.title}
                     </h3>
                     <p className="font-inter text-[15px] text-white/45 leading-[1.7] mt-2 max-w-[480px]">
                       {tier.subtitle}
                     </p>
                   </div>
-                  <span className="font-sora font-bold text-[80px] leading-none text-white/[0.04] select-none shrink-0 -mt-2">
+                  <span className="hidden sm:block font-sora font-bold text-[80px] leading-none text-white/[0.04] select-none shrink-0 -mt-2">
                     {tier.number}
                   </span>
                 </div>

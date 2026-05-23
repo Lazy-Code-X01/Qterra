@@ -22,7 +22,7 @@ export default function AboutHero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-          className="font-sora font-bold text-[56px] leading-tight tracking-[-1.5px] text-white"
+          className="font-sora font-bold text-[38px] sm:text-[48px] lg:text-[56px] leading-tight tracking-[-1.5px] text-white"
         >
           About QTerra
         </motion.h1>

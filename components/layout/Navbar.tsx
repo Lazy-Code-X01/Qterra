@@ -156,7 +156,7 @@ export default function Navbar() {
             </a>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden p-2 text-white/70 hover:text-white focus:outline-none"
+              className="md:hidden p-2.5 text-white/70 hover:text-white focus:outline-none"
               aria-label="Toggle Mobile Menu"
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -300,7 +300,7 @@ export default function Navbar() {
                             key={idx}
                             href={item.href}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="flex items-center gap-2 py-1.5 text-sm text-white/60 hover:text-spark"
+                            className="flex items-center gap-2 py-3 text-sm text-white/60 hover:text-spark"
                           >
                             <span className="h-1.5 w-1.5 bg-spark rounded-full shrink-0" />
                             <span>{item.title}</span>

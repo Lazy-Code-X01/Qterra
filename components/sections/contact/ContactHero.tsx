@@ -25,7 +25,7 @@ export default function ContactHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15, ease }}
-          className="font-sora font-bold text-[56px] leading-[1.1] tracking-[-1.5px] text-white"
+          className="font-sora font-bold text-[38px] sm:text-[48px] lg:text-[56px] leading-[1.1] tracking-[-1.5px] text-white"
         >
           Let&apos;s Connect
         </motion.h1>

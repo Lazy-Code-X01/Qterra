@@ -68,7 +68,7 @@ export default function CTABanner() {
 
           {/* Headline */}
           <motion.h2
-            className="font-sora font-bold text-[44px] sm:text-[52px] leading-[1.1] tracking-[-1.5px] text-white max-w-[680px]"
+            className="font-sora font-bold text-[30px] sm:text-[44px] lg:text-[52px] leading-[1.1] tracking-[-1px] sm:tracking-[-1.5px] text-white max-w-[680px]"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
@@ -119,12 +119,12 @@ export default function CTABanner() {
             transition={{ delay: 0.35, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
             viewport={{ once: true, margin: "-80px" }}
           >
-            <a href="#contact">
+            <a href="/contact">
               <button className="inline-flex items-center gap-2 bg-spark text-qterra-black font-inter font-bold text-[15px] px-8 py-3.5 rounded-lg hover:bg-[#bce03e] transition-colors duration-200">
                 Schedule a Consultation
               </button>
             </a>
-            <a href="#services">
+            <a href="/services">
               <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-semibold text-[15px] px-8 py-3.5 rounded-lg border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
                 Explore Our Services
                 <ArrowRight className="h-4 w-4" />
