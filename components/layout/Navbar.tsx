@@ -222,13 +222,13 @@ export default function Navbar() {
                         From Lagos to Johannesburg: one partner for strategy, finance, tech, and talent.
                       </p>
                     </div>
-                    <a
-                      href="#services"
+                    <Link
+                      href="/services"
                       className="mt-6 inline-flex items-center gap-2 bg-spark text-qterra-black font-inter font-semibold text-xs px-4 py-2.5 rounded-md hover:bg-[#bce03e] transition-colors duration-200 self-start"
                     >
                       View all services
                       <ArrowRight className="h-3.5 w-3.5" />
-                    </a>
+                    </Link>
                   </div>
 
                 </div>
