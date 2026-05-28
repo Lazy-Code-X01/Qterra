@@ -51,15 +51,15 @@ export default function OurStory() {
               <div className="flex items-center gap-2.5 mb-2">
                 <div className="relative h-9 w-9 rounded-full overflow-hidden shrink-0">
                   <Image
-                    src="/images/adesiji_rabiu.png"
-                    alt="Adesiji Rabiu"
+                    src="/logo.png"
+                    alt="QTerra Leadership"
                     fill
-                    className="object-cover"
+                    className="object-contain p-1"
                   />
                 </div>
                 <p className="font-inter font-semibold text-[13px] text-[#0D0F0D] leading-snug">
-                  Adesiji Rabiu,{" "}
-                  <span className="text-[#A8D32E]">Partner</span>
+                  QTerra Leadership,{" "}
+                  <span className="text-[#A8D32E]">QTerra</span>
                 </p>
               </div>
               <p className="font-inter italic text-[13px] text-[#333] leading-[1.6]">
@@ -80,18 +80,21 @@ export default function OurStory() {
               Our Story
             </p>
             <h2 className="font-sora font-bold text-[42px] leading-[1.1] tracking-[-1px] text-[#0D0F0D]">
-              Built to Close the Gap Between Strategy and Execution.
+              We Were Built to Close the Gap Between Strategy and Execution.
             </h2>
-            <p className="font-inter text-base text-[#555] leading-[1.75]">
-              QTerra was built on a straightforward conviction: that organizations across Africa deserve integrated, world-class advisory services delivered by people who understand the continent&apos;s complexity and are accountable to real outcomes.
+            <p className="font-inter text-[14px] text-[#555] leading-[1.75]">
+              QTerra was founded on a simple but increasingly urgent observation: organizations across industries continue to invest heavily in strategy, transformation, technology, and project delivery, yet many still struggle to achieve sustained results. In many cases, the challenge is not ambition, capability, or investment. It is fragmentation.
             </p>
-            <p className="font-inter text-base text-[#555] leading-[1.75]">
-              From the start, we set out to build something different: a firm that brings together consulting expertise, financial advisory capabilities, project delivery support, and digital solutions under one roof. We believe fragmented advisory creates fragmented results. QTerra exists to change that.
+            <p className="font-inter text-[14px] text-[#555] leading-[1.75]">
+              Strategy is disconnected from execution. Technology is deployed without adoption. Projects are delivered without fully realizing business value. Capability gaps remain long after engagements conclude. QTerra was established to close this gap.
+            </p>
+            <p className="font-inter text-[14px] text-[#555] leading-[1.75]">
+              As an Integrated Strategy &amp; Execution Firm, QTerra helps organizations move beyond recommendations toward measurable, sustained performance. The firm integrates strategic advisory, disciplined execution, AI-enabled decision support, digital enablement, and capability development into a unified delivery model designed to produce tangible business outcomes.
             </p>
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-5 mt-2">
-              <a href="#mission">
+              <a href="/about#mission">
                 <button className="inline-flex items-center gap-2 bg-[#0D0F0D] text-white font-inter font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-[#1e231e] transition-colors duration-200">
                   Our Mission
                   <ArrowUpRight className="h-4 w-4" />

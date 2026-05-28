@@ -10,49 +10,42 @@ const ease = [0.25, 0.1, 0.25, 1] as const;
 const cards = [
   {
     number: "01",
-    name: "Management Consulting",
+    name: "Strategy & Transformation",
     description:
-      "Strategic advisory, procurement strategy, vendor management, and operational efficiency programs for public and private sector organizations.",
-    href: "/services/management-consulting",
+      "Enterprise strategy design, procurement frameworks, cost optimization, and business process improvement programs.",
+    href: "/services/strategy-transformation",
   },
   {
     number: "02",
-    name: "Financial Advisory",
+    name: "Project Delivery & Implementation",
     description:
-      "Capital mobilization, investment structuring, financial sustainability planning, and funding optimization across projects and organizations.",
-    href: "/services/financial-advisory",
+      "Project and program management, governance, controls, performance monitoring, and strategic initiative execution.",
+    href: "/services/project-delivery",
   },
   {
     number: "03",
-    name: "Project Management",
+    name: "Digital Solutions & Analytics",
     description:
-      "End-to-end program planning, coordination, delivery support, governance, and data-driven decision advisory for complex initiatives.",
-    href: "/services/project-management",
-  },
-  {
-    number: "04",
-    name: "Digital Solutions",
-    description:
-      "Business process automation, data analytics platforms, operational performance monitoring, and digital decision-support tools.",
+      "Process automation, data analytics platforms, AI-enabled decision support, and operational performance tools.",
     href: "/services/digital-solutions",
   },
   {
-    number: "05",
-    name: "HR & Talent Management",
+    number: "04",
+    name: "Human Capital & Talent Management",
     description:
-      "Talent acquisition, employee development, payroll administration, and performance management frameworks to build effective workforces.",
-    href: "/services/hr-talent-management",
+      "Workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
+    href: "/services/human-capital",
   },
   {
-    number: "06",
-    name: "Training & Capability Development",
+    number: "05",
+    name: "Training & Capability Building",
     description:
-      "Executive training, professional workshops, organizational capacity building, and certification programs tailored to institutional needs.",
+      "Executive training, professional workshops, applied capability programs, and specialized training including AI-driven project management.",
     href: "/services/training-capability",
   },
 ];
 
-const DEFAULT_ACTIVE = 1; // Financial Advisory
+const DEFAULT_ACTIVE = 1; // Project Delivery
 
 export default function ServicesGrid() {
   const [activeIndex, setActiveIndex] = useState(DEFAULT_ACTIVE);
@@ -73,7 +66,7 @@ export default function ServicesGrid() {
               What We Offer
             </p>
             <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-qterra-black">
-              Integrated Solutions Across Six Practice Areas
+              Integrated Solutions Across Five Practice Areas
             </h2>
           </motion.div>
 
@@ -84,7 +77,7 @@ export default function ServicesGrid() {
             transition={{ duration: 0.5, delay: 0.1, ease }}
             className="font-inter text-[16px] text-[#555] leading-[1.75] lg:pb-1"
           >
-            From high-value strategic advisory to operational delivery and human capital development. QTerra brings everything under one roof.
+            From high-value strategic advisory to operational delivery and capability development. QTerra integrates everything into one unified model.
           </motion.p>
         </div>
 

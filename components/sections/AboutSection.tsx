@@ -51,17 +51,17 @@ export default function AboutSection() {
               <div className="flex items-center gap-2.5 mb-2">
                 <div className="relative h-9 w-9 rounded-full overflow-hidden shrink-0">
                   <Image
-                    src="/images/adesiji_rabiu.png"
-                    alt="Adesiji Rabiu"
+                    src="/logo.png"
+                    alt="QTerra Leadership"
                     fill
-                    className="object-cover"
+                    className="object-contain p-1"
                   />
                 </div>
                 <div>
                   <p className="font-inter font-semibold text-[13px] text-white leading-none">
-                    Adesiji Rabiu
+                    QTerra Leadership
                   </p>
-                  <p className="font-inter text-[12px] text-white/50 mt-0.5">Partner, QTerra</p>
+                  <p className="font-inter text-[12px] text-white/50 mt-0.5">QTerra</p>
                 </div>
               </div>
               <p className="font-inter italic text-[13px] text-white/70 leading-[1.6]">

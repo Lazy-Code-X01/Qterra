@@ -30,11 +30,11 @@ export default function MissionVision() {
                   <Compass className="h-6 w-6 text-spark" />
                 </div>
                 <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-white">
-                  To deliver integrated professional services that strengthen organizations and drive sustainable growth across Africa.
+                  To help organizations translate strategy into measurable, sustained results through integrated advisory, disciplined execution, and capability development.
                 </h3>
                 <div className="w-12 h-[2px] bg-spark" />
                 <p className="font-inter text-[15px] text-white/55 leading-[1.75]">
-                  We combine strategy, financial advisory, project delivery, digital capability, and human capital development to give our clients a single, accountable partner for their most complex challenges.
+                  At QTerra, our objective is not simply to help organizations plan better. It is to help them execute smarter, adapt faster, and realize measurable value with greater confidence and discipline.
                 </p>
               </div>
             </div>
@@ -63,11 +63,11 @@ export default function MissionVision() {
                   <Eye className="h-6 w-6 text-qterra-black" />
                 </div>
                 <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-qterra-black">
-                  To be Africa&apos;s most trusted integrated professional services firm, known for excellence and results that endure.
+                  To become a trusted partner enabling organizations to achieve measurable, sustained performance through intelligent execution, technology, and capability.
                 </h3>
                 <div className="w-12 h-[2px] bg-qterra-black/30" />
                 <p className="font-inter text-[15px] text-qterra-black/65 leading-[1.75]">
-                  We envision a continent where public and private organizations consistently achieve their strategic goals, with QTerra as their long-term partner in that journey.
+                  We envision a world where organizations consistently close the gap between strategic intent and operational reality, with QTerra as their long-term execution partner.
                 </p>
               </div>
             </div>

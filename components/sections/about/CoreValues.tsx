@@ -1,32 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, BarChart2, Lightbulb, Handshake } from "lucide-react";
+import { Target, Layers, Cpu, Handshake, GraduationCap, RefreshCw } from "lucide-react";
 
 const values = [
   {
-    icon: Shield,
-    name: "Integrity",
-    description: "We hold ourselves to the highest standards of professional conduct in every engagement, every conversation, and every deliverable.",
+    icon: Target,
+    name: "Outcome Orientation",
+    description: "We measure success by results — not activity. We focus on delivering tangible, measurable, and sustainable outcomes that create real organizational value.",
     number: "01",
   },
   {
-    icon: BarChart2,
-    name: "Accountability",
-    description: "We measure ourselves by outcomes, not outputs. Our clients' results are the only metric that matters to us.",
+    icon: Layers,
+    name: "Integrated Thinking",
+    description: "We connect strategy, execution, technology, and people. Transformational results occur when organizations align decision-making, delivery, capability, and operational realities into one coherent system.",
     number: "02",
   },
   {
-    icon: Lightbulb,
-    name: "Innovation",
-    description: "We bring fresh thinking to complex problems, combining global best practice with deep contextual understanding of the African operating environment.",
+    icon: Cpu,
+    name: "Intelligent Execution",
+    description: "We combine disciplined delivery with modern decision intelligence — leveraging data, AI-enabled insights, structured methodologies, and execution rigor to improve predictability and organizational agility.",
     number: "03",
   },
   {
     icon: Handshake,
-    name: "Partnership",
-    description: "We build long-term relationships grounded in trust, transparency, and a genuine commitment to our clients' growth, not just the duration of an engagement.",
+    name: "Partnership & Trust",
+    description: "We work with clients — not around them. We build long-term relationships grounded in credibility, transparency, professionalism, and shared accountability for outcomes.",
     number: "04",
+  },
+  {
+    icon: GraduationCap,
+    name: "Capability Building",
+    description: "We strengthen organizations while delivering solutions. Sustainable transformation occurs when organizations develop the internal capability and systems required to sustain success independently.",
+    number: "05",
+  },
+  {
+    icon: RefreshCw,
+    name: "Continuous Improvement",
+    description: "We evolve, adapt, and improve relentlessly. We embrace learning, innovation, and refinement to remain effective in a rapidly changing world.",
+    number: "06",
   },
 ];
 
@@ -52,7 +64,7 @@ export default function CoreValues() {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {values.map((val, i) => {
             const Icon = val.icon;
             return (

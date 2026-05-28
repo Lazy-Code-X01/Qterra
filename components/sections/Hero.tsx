@@ -6,7 +6,7 @@ import { CalendarDays, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const HERO_IMAGE_PATH = "/images/qterra_hero_person.png";
-const words = ["Results.", "Growth.", "Impact.", "Change."];
+const words = ["Results.", "Growth.", "Impact.", "Value."];
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -64,9 +64,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
             className="font-inter text-sm sm:text-base leading-relaxed text-white/50 max-w-sm font-light"
           >
-            Partnering with governments, corporations, and development
-            organizations across Africa to improve performance and achieve
-            sustainable growth.
+            Helping organizations translate strategy into measurable, sustained results through integrated advisory, execution, and capability development.
           </motion.p>
 
           <motion.div

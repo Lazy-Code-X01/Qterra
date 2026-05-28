@@ -23,7 +23,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.qterragroup.com'),
   title: "QTerra | Integrated Professional Services in Africa",
-  description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
+  description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: 'https://www.qterragroup.com',
     title: "QTerra | Integrated Professional Services in Africa",
-    description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
+    description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
     images: [
       {
         url: 'https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "QTerra | Integrated Professional Services in Africa",
-    description: "QTerra is an integrated professional services firm providing strategic advisory, operational support, and capability development to organizations across Africa.",
+    description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
     images: ['https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png'],
   },
 };

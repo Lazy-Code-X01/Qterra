@@ -35,15 +35,15 @@ const flow: Record<string, Step> = {
   },
   services: {
     botMessages: [
-      "Great! QTerra offers six core service areas:",
-      "1. Management Consulting & Business Advisory\n2. Financial & Investment Advisory\n3. Project Management & Implementation\n4. Digital Solutions & Business Tools\n5. HR & Talent Management\n6. Training & Capability Development",
+      "Great! QTerra offers five integrated service areas:",
+      "1. Strategy & Transformation\n2. Project Delivery & Implementation\n3. Digital Solutions & Analytics\n4. Human Capital & Talent Management\n5. Training & Capability Building",
       "Which area interests you most?",
     ],
     quickReplies: [
-      "Management Consulting",
-      "Financial Advisory",
+      "Strategy & Transformation",
+      "Project Delivery",
       "Digital Solutions",
-      "HR & Talent",
+      "Human Capital",
       "Something else",
     ],
     next: (r) => {
@@ -103,8 +103,8 @@ const flow: Record<string, Step> = {
   },
   about: {
     botMessages: [
-      "QTerra is an integrated professional services firm rooted in Africa.",
-      "We combine strategic thinking with execution capability — helping governments, corporates, and development organizations achieve lasting impact.",
+      "QTerra is an Integrated Strategy & Execution Firm founded in 2025.",
+      "We help organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development. We operate across Lagos, Johannesburg, Accra, and Benin.",
       "What would you like to know more about?",
     ],
     quickReplies: ["Our services", "Get in touch", "Our locations"],

@@ -30,19 +30,18 @@ const FacebookIcon = () => (
 );
 
 const companyLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Why QTerra", href: "#why-qterra" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const serviceLinks = [
-  { label: "Management Consulting", href: "#services" },
-  { label: "Financial Advisory", href: "#services" },
-  { label: "Project Management", href: "#services" },
-  { label: "Digital Solutions", href: "#services" },
-  { label: "HR & Talent Management", href: "#services" },
-  { label: "Training & Capability", href: "#services" },
+  { label: "Strategy & Transformation", href: "/services/strategy-transformation" },
+  { label: "Project Delivery & Implementation", href: "/services/project-delivery" },
+  { label: "Digital Solutions & Analytics", href: "/services/digital-solutions" },
+  { label: "Human Capital & Talent", href: "/services/human-capital" },
+  { label: "Training & Capability Building", href: "/services/training-capability" },
 ];
 
 export default function Footer() {
@@ -56,11 +55,11 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="flex flex-col">
             <div className="flex items-center gap-2.5">
-              <Image src="/logo.png" alt="QTerra" width={32} height={32} className="object-contain shrink-0" />
+              <Image src="/logo.png" alt="QTerra" width={44} height={44} className="object-contain shrink-0" />
               <span className="font-sora font-semibold text-lg text-white tracking-tight">QTerra</span>
             </div>
             <p className="font-inter text-sm text-white/45 leading-[1.6] mt-3 max-w-[220px]">
-              Integrated professional services for Africa&apos;s most complex challenges.
+              Integrated Strategy &amp; Execution. Helping organizations translate strategy into measurable, sustained results.
             </p>
             <div className="flex items-center gap-4 mt-5">
               {[

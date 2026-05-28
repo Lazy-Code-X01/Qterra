@@ -1,38 +1,38 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BarChart2, TrendingUp, ClipboardList, Laptop, Users, GraduationCap, ArrowRight } from "lucide-react";
+import { BarChart2, ClipboardList, Laptop, Users, GraduationCap, ArrowRight } from "lucide-react";
 
 const services = [
   {
     icon: BarChart2,
-    name: "Management Consulting",
-    description: "Strategy development, procurement advisory, vendor management, and operational efficiency programs.",
-  },
-  {
-    icon: TrendingUp,
-    name: "Financial Advisory",
-    description: "Capital mobilization, investment structuring, financial sustainability, and funding optimization.",
+    name: "Strategy & Transformation",
+    description: "Enterprise strategy design, procurement frameworks, cost optimization, and business process improvement programs.",
+    href: "/services/strategy-transformation",
   },
   {
     icon: ClipboardList,
-    name: "Project Management",
-    description: "Program planning, coordination, delivery support, governance, and data-driven decision advisory.",
+    name: "Project Delivery & Implementation",
+    description: "Project and program management, governance, controls, performance monitoring, and strategic initiative execution.",
+    href: "/services/project-delivery",
   },
   {
     icon: Laptop,
-    name: "Digital Solutions",
-    description: "Business process automation, data analytics platforms, and operational performance monitoring systems.",
+    name: "Digital Solutions & Analytics",
+    description: "Process automation, data analytics platforms, AI-enabled decision support, and operational performance tools.",
+    href: "/services/digital-solutions",
   },
   {
     icon: Users,
-    name: "HR & Talent Management",
-    description: "Talent acquisition, employee development, payroll administration, and performance management frameworks.",
+    name: "Human Capital & Talent Management",
+    description: "Workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
+    href: "/services/human-capital",
   },
   {
     icon: GraduationCap,
-    name: "Training & Capability",
-    description: "Executive training, professional workshops, organizational capacity building, and certification programs.",
+    name: "Training & Capability Building",
+    description: "Executive training, professional workshops, applied capability programs, and specialized AI-driven project management.",
+    href: "/services/training-capability",
   },
 ];
 
@@ -65,13 +65,13 @@ export default function ServicesSection() {
                 What We Do
               </p>
               <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-[#0D0F0D]">
-                Six Integrated Service Areas
+                Five Integrated Service Areas
               </h2>
               <p className="font-inter text-base leading-[1.7] text-[#555]">
-                From strategy to execution, QTerra brings together consulting expertise, financial advisory, project delivery, and digital capability under one roof.
+                From strategy to execution, QTerra integrates advisory, delivery, digital enablement, and capability building into one unified model.
               </p>
               <a
-                href="#services"
+                href="/services"
                 className="inline-flex items-center gap-1.5 font-inter font-semibold text-sm text-[#3F4E2E] hover:underline transition-all mt-2"
               >
                 View All Services
@@ -103,7 +103,7 @@ export default function ServicesSection() {
                       {svc.description}
                     </p>
                     <a
-                      href="#services"
+                      href={svc.href}
                       className="inline-flex items-center gap-1 font-inter font-semibold text-[13px] text-[#6B7C4A] mt-3 group-hover:gap-2 transition-all"
                     >
                       Learn more
@@ -135,7 +135,7 @@ export default function ServicesSection() {
               Let&apos;s talk through your goals and find the right solution together.
             </p>
           </div>
-          <a href="#contact" className="shrink-0">
+          <a href="/contact" className="shrink-0">
             <button className="inline-flex items-center gap-2 bg-[#A8D32E] text-[#0D0F0D] font-inter font-semibold text-sm px-7 py-3.5 rounded-lg hover:bg-[#bce03e] transition-colors duration-200 whitespace-nowrap">
               Schedule a Consultation
               <ArrowRight className="h-4 w-4" />

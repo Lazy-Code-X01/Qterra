@@ -10,10 +10,9 @@ import {
   ChevronDown,
   Menu,
   X,
-  Briefcase,
-  TrendingUp,
-  CheckSquare,
-  Cpu,
+  BarChart2,
+  ClipboardList,
+  Laptop,
   Users,
   GraduationCap,
   ArrowRight,
@@ -23,8 +22,8 @@ const Logo = () => (
   <Image
     src="/logo.png"
     alt="QTerra"
-    width={32}
-    height={32}
+    width={44}
+    height={44}
     className="shrink-0 object-contain"
     priority
   />
@@ -32,39 +31,33 @@ const Logo = () => (
 
 const services = [
   {
-    icon: Briefcase,
-    title: "Management Consulting",
-    description: "Driving organizational efficiency, policy formulation, and high-impact corporate strategies.",
-    href: "/services/management-consulting",
+    icon: BarChart2,
+    title: "Strategy & Transformation",
+    description: "Enterprise strategy design, procurement frameworks, cost optimization, and business process improvement.",
+    href: "/services/strategy-transformation",
   },
   {
-    icon: TrendingUp,
-    title: "Financial Advisory",
-    description: "Capital restructuring, transaction advisory, risk management, and investment planning.",
-    href: "/services/financial-advisory",
+    icon: ClipboardList,
+    title: "Project Delivery & Implementation",
+    description: "Project and program management, governance, controls, and strategic initiative execution.",
+    href: "/services/project-delivery",
   },
   {
-    icon: CheckSquare,
-    title: "Project Management",
-    description: "End-to-end delivery of complex infrastructural and development initiatives across Africa.",
-    href: "/services/project-management",
-  },
-  {
-    icon: Cpu,
-    title: "Digital Solutions",
-    description: "Custom enterprise tech, digital transformation, cloud migrations, and analytics.",
+    icon: Laptop,
+    title: "Digital Solutions & Analytics",
+    description: "Process automation, data analytics, AI-enabled decision support, and operational performance tools.",
     href: "/services/digital-solutions",
   },
   {
     icon: Users,
-    title: "HR & Talent Management",
-    description: "Strategic workforce development, executive search, and HR policy alignment.",
-    href: "/services/hr-talent-management",
+    title: "Human Capital & Talent Management",
+    description: "Workforce planning, talent acquisition, leadership development, and HR operations support.",
+    href: "/services/human-capital",
   },
   {
     icon: GraduationCap,
-    title: "Training & Capability Development",
-    description: "Bespoke professional development, training modules, and workforce upskilling.",
+    title: "Training & Capability Building",
+    description: "Executive training, professional workshops, applied capability programs, and AI-driven project management.",
     href: "/services/training-capability",
   },
 ];
@@ -181,7 +174,7 @@ export default function Navbar() {
                 <div className="grid grid-cols-12 gap-8">
 
                   {/* Services grid — 9 cols */}
-                  <div className="col-span-9 grid grid-cols-3 gap-2">
+                  <div className="col-span-9 grid grid-cols-2 gap-2">
                     {services.map((item, idx) => {
                       const Icon = item.icon;
                       return (

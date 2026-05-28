@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const XIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3 w-3 fill-current">
@@ -59,13 +59,8 @@ export default function TopBar() {
           <span>info@qterragroup.com</span>
         </a>
 
-        {/* Right: Hours · Socials */}
+        {/* Right: Socials */}
         <div className="flex items-center gap-4 shrink-0">
-          <div className="hidden sm:flex items-center gap-1.5">
-            <Clock className="h-3 w-3 text-spark" />
-            <span>Mon – Fri: 09:00 – 17:00</span>
-          </div>
-          <Divider />
           <div className="flex items-center gap-3">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Facebook">
               <FacebookIcon />
