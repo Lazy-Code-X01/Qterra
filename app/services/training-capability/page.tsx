@@ -3,81 +3,54 @@ import ServiceDetailHero from "@/components/sections/services/detail/ServiceDeta
 import ServiceOverview from "@/components/sections/services/detail/ServiceOverview";
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
-import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
+import BackToServices from "@/components/sections/services/detail/BackToServices";
 import CTABanner from "@/components/sections/CTABanner";
-import {
-  UserCheck,
-  Users,
-  Building2,
-  GraduationCap,
-  Target,
-  BarChart2,
-  Laptop,
-} from "lucide-react";
+import { GraduationCap, Users, Cpu } from "lucide-react";
 
 export default function TrainingCapabilityPage() {
   return (
     <>
       <ServiceDetailHero
-        breadcrumb="Training & Capability"
-        eyebrow="LEARNING & DEVELOPMENT"
-        title="Training & Capability Development"
-        description="Designing and delivering professional learning and organizational capacity-building programs tailored to institutional and corporate needs."
+        breadcrumb="Training & Capability Building"
+        eyebrow="TRAINING & CAPABILITY"
+        title="Training & Capability Building"
+        description="Executive training, professional workshops, applied capability programs, and specialized training including AI-driven project management — designed to build lasting organizational capability."
       />
       <ServiceOverview
         eyebrow="WHAT WE DO"
-        headline="Building the Capability Your Organization Needs to Grow"
+        headline="Building the Capability Your Organization Needs to Perform"
         paragraphs={[
-          "QTerra designs and delivers professional learning and organizational capacity-building programs that equip individuals and teams with the skills, knowledge, and mindsets needed to perform at their best.",
-          "We work with governments, corporations, and development organizations to design programs that are contextually relevant, practically focused, and aligned to the strategic capability gaps that matter most.",
+          "Executive training, professional workshops, applied capability programs, and specialized training including AI-driven project management are what QTerra delivers under this service area. We design programs that equip individuals and teams with the skills, knowledge, and tools needed to perform at their best.",
+          "We work with governments, corporations, and development organizations to ensure every program is contextually relevant, practically focused, and aligned to the strategic capability gaps that matter most.",
         ]}
         imageSrc="/images/services/training.jpg"
-        imageAlt="Training and capability development session"
+        imageAlt="Training and capability building session"
       />
       <WhatIsIncluded
         eyebrow="WHAT'S INCLUDED"
         headline="Our Training & Capability Programs"
         subtext="Professionally designed learning programs that build lasting capability across your organization."
         services={[
-          { icon: UserCheck, title: "Executive Training & Leadership Development", description: "Intensive programs designed to sharpen the strategic thinking, decision-making, and leadership capability of senior executives." },
-          { icon: Users, title: "Professional Workshops & Seminars", description: "Focused, practical workshops that build specific skills and knowledge across teams and departments." },
-          { icon: Building2, title: "Organizational Capability Building", description: "Comprehensive programs that build institutional capacity across an entire organization, not just individual skills." },
-          { icon: GraduationCap, title: "Professional Certification Programs", description: "Structured certification and technical skills development programs aligned to industry standards and professional bodies." },
-          { icon: Target, title: "Curriculum Design & Learning Architecture", description: "Designing bespoke learning curricula and program architectures tailored to your organizational objectives." },
-          { icon: BarChart2, title: "Learning Impact Assessment", description: "Evaluating program effectiveness through rigorous assessment of learning outcomes and organizational performance impact." },
+          { icon: GraduationCap, title: "Executive & Professional Training Programs", description: "Intensive training programs designed to sharpen the strategic thinking, leadership capability, and professional competence of executives and senior professionals." },
+          { icon: Users, title: "Applied Workshops & Capability-Building Initiatives", description: "Practical, facilitated workshops and capability-building initiatives that develop specific skills, embed new ways of working, and strengthen team performance." },
+          { icon: Cpu, title: "Specialized Programs including AI-Driven Project Management", description: "Purpose-built specialized programs covering emerging areas of practice — including AI-driven project management, decision intelligence, and digital capability development." },
         ]}
       />
       <HowWeWork
         eyebrow="OUR PROCESS"
         headline="How We Deliver"
-        subtext="A rigorous design and delivery process that ensures every program achieves its intended learning outcomes."
+        subtext="A rigorous design and delivery process that ensures every program achieves its intended outcomes."
         steps={[
-          { number: "01", title: "Diagnose", description: "We identify the specific capability gaps, learning objectives, and organizational context that will shape the program design." },
-          { number: "02", title: "Design", description: "We design a tailored learning program including content, methodology, format, and assessment, aligned to your objectives." },
-          { number: "03", title: "Deliver", description: "We deliver the program with experienced facilitators who combine subject matter expertise with practical delivery skill." },
-          { number: "04", title: "Evaluate", description: "We measure learning outcomes, gather feedback, and assess the impact of the program on organizational performance." },
+          { number: "01", title: "Define", description: "We identify capability gaps, learning objectives, and organizational context to define a program design aligned to measurable outcomes." },
+          { number: "02", title: "Deliver", description: "We deliver tailored programs with experienced facilitators who combine subject matter expertise with practical, applied learning." },
+          { number: "03", title: "Enable", description: "We integrate digital learning tools and AI-enabled resources to extend program reach and reinforce knowledge application." },
+          { number: "04", title: "Embed", description: "We measure outcomes, build internal facilitation capability, and establish systems that sustain learning beyond the program." },
         ]}
         imageSrc="/images/services/training-process.jpg"
         imageAlt="Training delivery session"
       />
-      <WhyQTerraService
-        eyebrow="WHY QTERRA"
-        headline="Why Choose QTerra for Training & Capability"
-        points={[
-          { icon: Target, title: "Contextually Designed", description: "Every program we design is tailored to your organizational context, not adapted from a generic off-the-shelf curriculum." },
-          { icon: UserCheck, title: "Expert Facilitators", description: "Our facilitators combine deep subject matter expertise with proven adult learning and facilitation skills." },
-          { icon: BarChart2, title: "Measured Impact", description: "We evaluate every program against defined learning outcomes and organizational performance indicators." },
-        ]}
-      />
-      <RelatedServices
-        services={[
-          { icon: Users, number: "05", title: "HR & Talent Management", description: "Talent acquisition, development, and performance management.", href: "/services/hr-talent-management" },
-          { icon: BarChart2, number: "01", title: "Management Consulting", description: "Organizational strategy and transformation programs.", href: "/services/management-consulting" },
-          { icon: Laptop, number: "04", title: "Digital Solutions", description: "Digital tools to support learning management and performance tracking.", href: "/services/digital-solutions" },
-        ]}
-      />
-      <CTABanner />
+      <BackToServices />
+      <CTABanner minimal />
     </>
   );
 }

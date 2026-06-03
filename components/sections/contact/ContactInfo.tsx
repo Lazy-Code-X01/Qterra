@@ -8,7 +8,7 @@ const cards = [
   {
     icon: MapPin,
     title: "Visit us",
-    lines: ["Lagos · Johannesburg", "Accra · Benin"],
+    lines: ["Lagos · Johannesburg", "Toronto · Chicago"],
   },
   {
     icon: Phone,

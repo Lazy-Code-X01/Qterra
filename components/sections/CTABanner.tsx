@@ -1,15 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Building2, Globe2, Users2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
-const trust = [
-  { icon: Building2, label: "40+ Organizations Served" },
-  { icon: Globe2, label: "6 African Markets" },
-  { icon: Users2, label: "15+ Years Combined Expertise" },
-];
-
-export default function CTABanner() {
+export default function CTABanner({ minimal = false }: { minimal?: boolean }) {
   return (
     <section className="w-full bg-qterra-black relative overflow-hidden py-24">
 
@@ -57,7 +51,7 @@ export default function CTABanner() {
         >
           {/* Eyebrow */}
           <motion.p
-            className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase mb-4"
+            className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase mb-4"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.05, duration: 0.5 }}
@@ -89,25 +83,6 @@ export default function CTABanner() {
             Tell us your goals. We will build a plan that delivers real, measurable outcomes and stay accountable to every one of them.
           </motion.p>
 
-          {/* Trust signals */}
-          <motion.div
-            className="flex flex-wrap items-center justify-center gap-6 mt-8"
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.28, duration: 0.5 }}
-            viewport={{ once: true, margin: "-80px" }}
-          >
-            {trust.map((t, i) => {
-              const Icon = t.icon;
-              return (
-                <div key={i} className="flex items-center gap-2">
-                  <Icon className="h-4 w-4 text-spark shrink-0" />
-                  <span className="font-inter text-[13px] text-white/50">{t.label}</span>
-                </div>
-              );
-            })}
-          </motion.div>
-
           {/* Divider */}
           <div className="w-16 h-[1px] bg-white/10 mt-8" />
 
@@ -121,15 +96,17 @@ export default function CTABanner() {
           >
             <a href="/contact">
               <button className="inline-flex items-center gap-2 bg-spark text-qterra-black font-inter font-bold text-[15px] px-8 py-3.5 rounded-lg hover:bg-[#bce03e] transition-colors duration-200">
-                Schedule a Consultation
+                {minimal ? "Get in Touch" : "Schedule a Consultation"}
               </button>
             </a>
-            <a href="/services">
-              <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-semibold text-[15px] px-8 py-3.5 rounded-lg border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
-                Explore Our Services
-                <ArrowRight className="h-4 w-4" />
-              </button>
-            </a>
+            {!minimal && (
+              <a href="/services">
+                <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-semibold text-[15px] px-8 py-3.5 rounded-lg border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
+                  Explore Our Services
+                  <ArrowRight className="h-4 w-4" />
+                </button>
+              </a>
+            )}
           </motion.div>
         </motion.div>
       </div>

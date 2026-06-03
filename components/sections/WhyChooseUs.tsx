@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] as const }}
             viewport={{ once: true }}
           >
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase">
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase">
               Why Choose Us
             </p>
             <h2 className="font-sora font-bold text-[38px] leading-[1.15] tracking-[-0.5px] text-qterra-black mt-2">

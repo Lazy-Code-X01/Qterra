@@ -25,7 +25,7 @@ export default function TeamSection() {
 
         {/* Heading */}
         <div className="flex flex-col items-center text-center mb-12">
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase">
             Meet the Team
           </p>
           <h2 className="font-sora font-bold text-[40px] leading-tight tracking-[-1px] text-qterra-black mt-2">

@@ -25,7 +25,7 @@ const services = [
   {
     icon: Users,
     name: "Human Capital & Talent Management",
-    description: "Workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
+    description: "Strategic workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
     href: "/services/human-capital",
   },
   {
@@ -61,7 +61,7 @@ export default function ServicesSection() {
               transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
               viewport={{ once: true, margin: "-80px" }}
             >
-              <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#6B7C4A] uppercase">
+              <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#6B7C4A] uppercase">
                 What We Do
               </p>
               <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-[#0D0F0D]">
@@ -118,31 +118,6 @@ export default function ServicesSection() {
         </div>
       </div>
 
-      {/* PART B — Dark CTA band */}
-      <div className="bg-[#0D0F0D] py-14">
-        <motion.div
-          className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 flex flex-col sm:flex-row items-center justify-between gap-8"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-          viewport={{ once: true, margin: "-80px" }}
-        >
-          <div className="flex flex-col gap-3">
-            <h3 className="font-sora font-semibold text-[28px] text-white leading-snug">
-              Not sure which service fits your need?
-            </h3>
-            <p className="font-inter text-base text-white/55">
-              Let&apos;s talk through your goals and find the right solution together.
-            </p>
-          </div>
-          <a href="/contact" className="shrink-0">
-            <button className="inline-flex items-center gap-2 bg-[#A8D32E] text-[#0D0F0D] font-inter font-semibold text-sm px-7 py-3.5 rounded-lg hover:bg-[#bce03e] transition-colors duration-200 whitespace-nowrap">
-              Schedule a Consultation
-              <ArrowRight className="h-4 w-4" />
-            </button>
-          </a>
-        </motion.div>
-      </div>
     </section>
   );
 }

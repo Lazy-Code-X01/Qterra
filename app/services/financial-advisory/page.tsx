@@ -4,19 +4,16 @@ import ServiceOverview from "@/components/sections/services/detail/ServiceOvervi
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
 import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
 import CTABanner from "@/components/sections/CTABanner";
 import {
   DollarSign,
   TrendingUp,
+  BarChart2,
   FileText,
   PieChart,
   Shield,
   Globe2,
   Target,
-  BarChart2,
-  ClipboardList,
-  Laptop,
 } from "lucide-react";
 
 export default function FinancialAdvisoryPage() {
@@ -73,14 +70,8 @@ export default function FinancialAdvisoryPage() {
           { icon: Target, title: "Outcome-Driven", description: "We measure success by the capital secured, the structures implemented, and the financial results achieved." },
         ]}
       />
-      <RelatedServices
-        services={[
-          { icon: BarChart2, number: "01", title: "Management Consulting", description: "Strategy development, procurement advisory, and operational efficiency programs.", href: "/services/management-consulting" },
-          { icon: ClipboardList, number: "03", title: "Project Management", description: "End-to-end program delivery, governance, and implementation support.", href: "/services/project-management" },
-          { icon: Laptop, number: "04", title: "Digital Solutions", description: "Business process automation and data analytics platforms.", href: "/services/digital-solutions" },
-        ]}
-      />
-      <CTABanner />
+
+      <CTABanner minimal />
     </>
   );
 }

@@ -8,7 +8,7 @@ export default function MissionVision() {
     <section className="w-full">
       <div className="grid grid-cols-1 lg:grid-cols-2">
 
-        {/* MISSION — dark left */}
+        {/* VISION — dark left (first per document) */}
         <motion.div
           className="bg-qterra-black px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex flex-col justify-start"
           initial={{ opacity: 0, x: -40 }}
@@ -17,8 +17,8 @@ export default function MissionVision() {
           viewport={{ once: true, margin: "-80px" }}
         >
           <div className="max-w-[480px] ml-auto flex flex-col gap-6">
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
-              Our Mission
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase">
+              Our Vision
             </p>
 
             <div className="relative">
@@ -27,21 +27,21 @@ export default function MissionVision() {
               </span>
               <div className="relative flex flex-col gap-5">
                 <div className="h-12 w-12 rounded-xl bg-spark/10 flex items-center justify-center">
-                  <Compass className="h-6 w-6 text-spark" />
+                  <Eye className="h-6 w-6 text-spark" />
                 </div>
                 <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-white">
-                  To help organizations translate strategy into measurable, sustained results through integrated advisory, disciplined execution, and capability development.
+                  To become a trusted partner in strategy execution and organizational transformation, enabling organizations to achieve measurable and sustained performance through intelligent execution, technology, and human capability.
                 </h3>
                 <div className="w-12 h-[2px] bg-spark" />
                 <p className="font-inter text-[15px] text-white/55 leading-[1.75]">
-                  At QTerra, our objective is not simply to help organizations plan better. It is to help them execute smarter, adapt faster, and realize measurable value with greater confidence and discipline.
+                  We envision a world where organizations consistently close the gap between strategic intent and operational reality, with QTerra as their long-term execution partner.
                 </p>
               </div>
             </div>
           </div>
         </motion.div>
 
-        {/* VISION — spark right */}
+        {/* MISSION — spark right (second per document) */}
         <motion.div
           className="bg-spark px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex flex-col justify-start"
           initial={{ opacity: 0, x: 40 }}
@@ -50,8 +50,8 @@ export default function MissionVision() {
           viewport={{ once: true, margin: "-80px" }}
         >
           <div className="max-w-[480px] mr-auto flex flex-col gap-6">
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-qterra-black/60 uppercase">
-              Our Vision
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-qterra-black/60 uppercase">
+              Our Mission
             </p>
 
             <div className="relative">
@@ -60,14 +60,14 @@ export default function MissionVision() {
               </span>
               <div className="relative flex flex-col gap-5">
                 <div className="h-12 w-12 rounded-xl bg-qterra-black/10 flex items-center justify-center">
-                  <Eye className="h-6 w-6 text-qterra-black" />
+                  <Compass className="h-6 w-6 text-qterra-black" />
                 </div>
                 <h3 className="font-sora font-bold text-[24px] sm:text-[32px] leading-[1.2] tracking-[-0.5px] text-qterra-black">
-                  To become a trusted partner enabling organizations to achieve measurable, sustained performance through intelligent execution, technology, and capability.
+                  To help organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.
                 </h3>
                 <div className="w-12 h-[2px] bg-qterra-black/30" />
                 <p className="font-inter text-[15px] text-qterra-black/65 leading-[1.75]">
-                  We envision a world where organizations consistently close the gap between strategic intent and operational reality, with QTerra as their long-term execution partner.
+                  At QTerra, our objective is not simply to help organizations plan better. It is to help them execute smarter, adapt faster, and realize measurable value with greater confidence and discipline.
                 </p>
               </div>
             </div>

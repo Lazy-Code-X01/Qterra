@@ -82,7 +82,7 @@ export default function CaseStudiesGrid() {
           transition={{ duration: 0.5, ease }}
           className="text-center mb-10"
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase mb-3">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase mb-3">
             Our Work
           </p>
           <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-qterra-black">
@@ -159,7 +159,7 @@ export default function CaseStudiesGrid() {
 
                   {/* Meta */}
                   <div className="mt-5 border-b border-[#e8e8e4] pb-5 flex flex-col flex-1">
-                    <p className="font-inter font-semibold text-[11px] tracking-[1.5px] text-olive uppercase mb-2">
+                    <p className="font-inter font-semibold text-[13px] tracking-[1.5px] text-olive uppercase mb-2">
                       {item.category}
                     </p>
                     <h3 className="font-sora font-semibold text-[18px] text-qterra-black leading-[1.3] group-hover:text-forest transition-colors duration-200 flex-1">

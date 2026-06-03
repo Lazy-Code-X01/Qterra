@@ -3,51 +3,37 @@ import ServiceDetailHero from "@/components/sections/services/detail/ServiceDeta
 import ServiceOverview from "@/components/sections/services/detail/ServiceOverview";
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
-import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
+import BackToServices from "@/components/sections/services/detail/BackToServices";
 import CTABanner from "@/components/sections/CTABanner";
-import {
-  Settings,
-  BarChart2,
-  Monitor,
-  FileText,
-  Target,
-  UserCheck,
-  Shield,
-  ClipboardList,
-  Users,
-} from "lucide-react";
+import { Settings, BarChart2, Cpu } from "lucide-react";
 
 export default function DigitalSolutionsPage() {
   return (
     <>
       <ServiceDetailHero
-        breadcrumb="Digital Solutions"
-        eyebrow="DIGITAL & TECHNOLOGY"
-        title="Digital Solutions & Business Tools"
-        description="Developing and deploying digital tools, methodologies, and operational systems that enable organizations to improve efficiency and make data-driven decisions."
+        breadcrumb="Digital Solutions & Analytics"
+        eyebrow="DIGITAL SOLUTIONS & ANALYTICS"
+        title="Digital Solutions & Analytics"
+        description="Process automation, data analytics platforms, AI-enabled decision support, and operational performance tools that strengthen how organizations operate and decide."
       />
       <ServiceOverview
         eyebrow="WHAT WE DO"
-        headline="Technology That Drives Operational Excellence"
+        headline="Technology and Analytics That Drive Operational Excellence"
         paragraphs={[
-          "QTerra develops and deploys digital tools, methodologies, and operational systems tailored to the specific needs of public and private sector organizations across Africa.",
-          "We don't implement technology for its own sake. Every digital solution we build is designed to solve a specific operational problem, improve a measurable outcome, and be sustainable within your organization's capacity.",
+          "Process automation, data analytics platforms, AI-enabled decision support, and operational performance tools are what QTerra delivers under this service area. We develop and deploy digital solutions tailored to the specific operational needs of public and private sector organizations.",
+          "Every solution we build is designed to solve a specific operational problem, improve a measurable outcome, and be sustainable within your organization's capacity — not technology for its own sake.",
         ]}
         imageSrc="/images/services/digital-solutions.jpg"
-        imageAlt="Digital solutions and technology team"
+        imageAlt="Digital solutions and analytics team"
       />
       <WhatIsIncluded
         eyebrow="WHAT'S INCLUDED"
-        headline="Our Digital Solutions"
-        subtext="Purpose-built digital tools and systems designed to improve efficiency and enable data-driven decision-making."
+        headline="Our Digital Solutions & Analytics Services"
+        subtext="Purpose-built digital tools and analytics solutions designed to improve efficiency, decision-making, and organizational performance."
         services={[
-          { icon: Settings, title: "Business Process Automation", description: "Identifying and automating repetitive, manual processes to free up capacity and reduce the risk of human error." },
-          { icon: BarChart2, title: "Data Analytics Platforms & Dashboards", description: "Building custom analytics platforms that give leadership real-time visibility into performance across the organization." },
-          { icon: Monitor, title: "Operational Performance Monitoring", description: "Deploying monitoring systems that track KPIs, flag issues early, and support continuous improvement." },
-          { icon: FileText, title: "Digital Decision-Support Tools", description: "Developing reporting tools and decision-support systems that turn data into actionable insight for leadership teams." },
-          { icon: Target, title: "Digital Transformation Advisory", description: "Guiding organizations through digital transformation journeys with structured change management and capability building." },
-          { icon: Shield, title: "Systems Integration & Data Management", description: "Connecting disparate systems and building robust data management frameworks to create a single source of operational truth." },
+          { icon: Settings, title: "Process Automation & Operational Tools", description: "Identifying and automating manual, repetitive processes and deploying operational tools that free up capacity and improve execution speed across the organization." },
+          { icon: BarChart2, title: "Data Analytics, Dashboards & Performance Platforms", description: "Building custom analytics platforms, performance dashboards, and reporting systems that give leadership real-time visibility and data-driven insight." },
+          { icon: Cpu, title: "AI-Enabled Decision Support & Reporting Solutions", description: "Developing and deploying AI-enabled decision-support tools and intelligent reporting solutions that strengthen leadership decision-making and organizational agility." },
         ]}
       />
       <HowWeWork
@@ -55,31 +41,16 @@ export default function DigitalSolutionsPage() {
         headline="How We Deliver"
         subtext="A practical, outcome-focused approach to digital implementation that minimizes disruption and maximizes adoption."
         steps={[
-          { number: "01", title: "Discover", description: "We map your current processes, systems, and pain points to identify where digital solutions will have the greatest impact." },
-          { number: "02", title: "Design", description: "We design solutions tailored to your operational context, capacity, and technical environment." },
-          { number: "03", title: "Build & Test", description: "We develop and rigorously test the solution before deployment to ensure it performs as intended." },
-          { number: "04", title: "Deploy & Support", description: "We manage deployment, train your team, and provide support to ensure successful adoption and sustained performance." },
+          { number: "01", title: "Define", description: "We map your current processes, systems, and pain points to clarify priorities and define measurable success metrics for each solution." },
+          { number: "02", title: "Deliver", description: "We design, build, and rigorously test digital solutions tailored to your operational context, capacity, and technical environment." },
+          { number: "03", title: "Enable", description: "We deploy AI-enabled tools, dashboards, and analytics platforms that strengthen leadership decision-making and operational performance." },
+          { number: "04", title: "Embed", description: "We train your team, manage adoption, and build internal capability to sustain and scale every solution we deliver." },
         ]}
         imageSrc="/images/services/digital-process.jpg"
         imageAlt="Digital implementation team"
       />
-      <WhyQTerraService
-        eyebrow="WHY QTERRA"
-        headline="Why Choose QTerra for Digital Solutions"
-        points={[
-          { icon: Target, title: "Context-Driven Design", description: "We design for your specific operational context, not generic off-the-shelf solutions that don't fit your reality." },
-          { icon: UserCheck, title: "Built for Adoption", description: "We prioritize usability and change management to ensure your team actually uses what we build." },
-          { icon: Shield, title: "Sustainable & Maintainable", description: "Every solution we build is designed to be maintained and scaled by your team long after our engagement ends." },
-        ]}
-      />
-      <RelatedServices
-        services={[
-          { icon: BarChart2, number: "01", title: "Management Consulting", description: "Strategy and process improvement to complement your digital transformation.", href: "/services/management-consulting" },
-          { icon: ClipboardList, number: "03", title: "Project Management", description: "Structured delivery support for complex digital implementations.", href: "/services/project-management" },
-          { icon: Users, number: "05", title: "HR & Talent Management", description: "Building the human capability to sustain your digital solutions.", href: "/services/hr-talent-management" },
-        ]}
-      />
-      <CTABanner />
+      <BackToServices />
+      <CTABanner minimal />
     </>
   );
 }

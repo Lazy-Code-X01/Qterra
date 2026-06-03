@@ -4,7 +4,6 @@ import ServiceOverview from "@/components/sections/services/detail/ServiceOvervi
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
 import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
 import CTABanner from "@/components/sections/CTABanner";
 import {
   ClipboardList,
@@ -12,8 +11,6 @@ import {
   Shield,
   BarChart2,
   UserCheck,
-  TrendingUp,
-  Laptop,
 } from "lucide-react";
 
 export default function ProjectManagementPage() {
@@ -70,14 +67,8 @@ export default function ProjectManagementPage() {
           { icon: Shield, title: "Governance First", description: "We build strong governance structures into every program from day one, preventing the issues that derail most complex initiatives." },
         ]}
       />
-      <RelatedServices
-        services={[
-          { icon: BarChart2, number: "01", title: "Management Consulting", description: "Strategy development and organizational transformation.", href: "/services/management-consulting" },
-          { icon: TrendingUp, number: "02", title: "Financial Advisory", description: "Capital mobilization and investment structuring.", href: "/services/financial-advisory" },
-          { icon: Laptop, number: "04", title: "Digital Solutions", description: "Data analytics platforms and performance monitoring systems.", href: "/services/digital-solutions" },
-        ]}
-      />
-      <CTABanner />
+
+      <CTABanner minimal />
     </>
   );
 }

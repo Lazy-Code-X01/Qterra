@@ -57,7 +57,7 @@ export default function ServicesTiers() {
           transition={{ duration: 0.5, ease }}
           className="text-center mb-10 sm:mb-16"
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase">
             Service Architecture
           </p>
           <h2 className="font-sora font-bold text-[28px] sm:text-[40px] text-white tracking-[-1px] mt-2">
@@ -108,7 +108,7 @@ export default function ServicesTiers() {
 
                     {/* Text */}
                     <div className="pt-1.5">
-                      <p className={`font-inter font-semibold text-[11px] tracking-[2px] uppercase transition-colors duration-300 ${isActive ? "text-spark" : "text-white/30 group-hover:text-white/50"}`}>
+                      <p className={`font-inter font-semibold text-[13px] tracking-[2px] uppercase transition-colors duration-300 ${isActive ? "text-spark" : "text-white/30 group-hover:text-white/50"}`}>
                         {t.label}
                       </p>
                       <h4 className={`font-sora font-semibold text-[18px] mt-1 transition-colors duration-300 ${isActive ? "text-white" : "text-white/40 group-hover:text-white/60"}`}>
@@ -122,7 +122,7 @@ export default function ServicesTiers() {
 
             {/* Client tags below selector */}
             <div className="mt-4 pl-[60px]">
-              <p className="font-inter font-semibold text-[11px] text-white/30 uppercase tracking-[1px] mb-3">
+              <p className="font-inter font-semibold text-[13px] text-white/30 uppercase tracking-[1px] mb-3">
                 Typical clients
               </p>
               <AnimatePresence mode="wait">
@@ -176,7 +176,7 @@ export default function ServicesTiers() {
                 {/* Big faded number */}
                 <div className="flex items-start justify-between mb-6">
                   <div>
-                    <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
+                    <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase">
                       {tier.label}
                     </p>
                     <h3 className="font-sora font-bold text-[24px] sm:text-[32px] text-white tracking-[-0.5px] mt-1">

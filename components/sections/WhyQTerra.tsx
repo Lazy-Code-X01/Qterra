@@ -6,8 +6,8 @@ import { Globe2, Layers, UserCheck, Target } from "lucide-react";
 const cards = [
   {
     icon: Globe2,
-    title: "Pan-African Reach",
-    description: "Offices in Lagos, Johannesburg, Accra, and Benin, delivering on-the-ground expertise across the continent.",
+    title: "The Differentiator",
+    description: "QTerra integrates what is often fragmented — strategy, execution, digital enablement, and capability building — to ensure initiatives are not only defined, but effectively operationalized, adopted, and sustained.",
   },
   {
     icon: Layers,
@@ -47,7 +47,7 @@ export default function WhyQTerra() {
           transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           viewport={{ once: true, margin: "-80px" }}
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase">
             Why QTerra
           </p>
           <h2 className="font-sora font-bold text-[40px] leading-tight tracking-[-1px] text-white mt-2">

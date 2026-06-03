@@ -12,7 +12,7 @@ export default function LogosStrip() {
         transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
         viewport={{ once: true, margin: "-80px" }}
       >
-        <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#6B7C4A] uppercase">
+        <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#6B7C4A] uppercase">
           Trusted By Leading Organizations
         </p>
         {/* Replace placeholder slots with actual QTerra client logos when provided */}

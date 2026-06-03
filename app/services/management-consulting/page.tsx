@@ -4,20 +4,17 @@ import ServiceOverview from "@/components/sections/services/detail/ServiceOvervi
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
 import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
 import CTABanner from "@/components/sections/CTABanner";
 import {
   Target,
-  ShoppingCart,
   Users,
-  TrendingDown,
   BarChart2,
+  ShoppingCart,
+  TrendingDown,
   FileSearch,
   UserCheck,
   Globe2,
   Shield,
-  TrendingUp,
-  ClipboardList,
 } from "lucide-react";
 
 export default function ManagementConsultingPage() {
@@ -74,14 +71,8 @@ export default function ManagementConsultingPage() {
           { icon: Shield, title: "Accountable to Outcomes", description: "We don't measure success by deliverables submitted. We measure it by the results our clients achieve." },
         ]}
       />
-      <RelatedServices
-        services={[
-          { icon: TrendingUp, number: "02", title: "Financial Advisory", description: "Capital mobilization, investment structuring, and funding optimization.", href: "/services/financial-advisory" },
-          { icon: ClipboardList, number: "03", title: "Project Management", description: "End-to-end program delivery, governance, and implementation support.", href: "/services/project-management" },
-          { icon: Users, number: "05", title: "HR & Talent Management", description: "Talent acquisition, workforce strategy, and performance management.", href: "/services/hr-talent-management" },
-        ]}
-      />
-      <CTABanner />
+
+      <CTABanner minimal />
     </>
   );
 }

@@ -47,7 +47,7 @@ export default function Testimonials() {
           transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           viewport={{ once: true, margin: "-80px" }}
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase">
             Client Testimonials
           </p>
           <h2 className="font-sora font-bold text-[38px] leading-tight tracking-[-0.5px] text-qterra-black mt-2">

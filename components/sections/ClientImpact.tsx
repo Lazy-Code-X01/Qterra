@@ -40,7 +40,7 @@ export default function ClientImpact() {
           transition={{ duration: 0.5, ease }}
           className="flex flex-col items-center text-center mb-12"
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase mb-3">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase mb-3">
             Client Impact
           </p>
           <h2 className="font-sora font-bold text-[36px] sm:text-[40px] leading-tight tracking-[-1px] text-qterra-black">

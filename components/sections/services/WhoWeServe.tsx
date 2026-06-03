@@ -45,7 +45,7 @@ export default function WhoWeServe() {
           transition={{ duration: 0.5, ease }}
           className="text-center"
         >
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase">
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase">
             WHO WE SERVE
           </p>
           <h2 className="font-sora font-bold text-[40px] text-qterra-black tracking-[-1px] mt-2">

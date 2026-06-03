@@ -96,7 +96,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
             {/* Left sidebar */}
             <aside className="lg:col-span-3">
               <div className="sticky top-28">
-                <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#999] uppercase">
+                <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#999] uppercase">
                   In This Study
                 </p>
                 <nav className="mt-4 space-y-3">
@@ -121,7 +121,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
                 </nav>
 
                 <div className="mt-10">
-                  <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#999] uppercase">
+                  <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#999] uppercase">
                     Service Area
                   </p>
                   <p className="font-inter font-semibold text-[14px] text-spark mt-2">
@@ -213,7 +213,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
 
                   {/* Meta */}
                   <div className="mt-5 border-b border-[#e8e8e4] pb-5">
-                    <p className="font-inter font-semibold text-[11px] tracking-[1.5px] text-olive uppercase mb-2">
+                    <p className="font-inter font-semibold text-[13px] tracking-[1.5px] text-olive uppercase mb-2">
                       {item.category}
                     </p>
                     <h3 className="font-sora font-semibold text-[18px] text-qterra-black leading-[1.3] group-hover:text-forest transition-colors duration-200">

@@ -101,7 +101,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-0 group shrink-0">
             <Logo />
-            <span className="font-sora font-semibold text-lg tracking-tight text-white group-hover:text-spark transition-colors ">
+            <span className="font-sora font-semibold text-2xl tracking-tight text-white group-hover:text-spark transition-colors ">
               Terra
             </span>
           </Link>
@@ -212,7 +212,7 @@ export default function Navbar() {
                         Integrated solutions across Africa.
                       </h4>
                       <p className="text-xs text-white/45 font-inter font-light leading-relaxed">
-                        From Lagos to Johannesburg: one partner for strategy, finance, tech, and talent.
+                        From Lagos to Chicago: one partner for strategy, execution, and capability development.
                       </p>
                     </div>
                     <Link

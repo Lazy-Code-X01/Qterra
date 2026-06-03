@@ -4,10 +4,9 @@ import { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const stats = [
-  { value: 200, suffix: "+", label: "CLIENTS SERVED" },
-  { value: 10, suffix: "+", label: "YEARS EXPERIENCE" },
-  { value: 4, suffix: "", label: "AFRICAN CITIES" },
-  { value: 6, suffix: "", label: "SERVICE AREAS" },
+  { value: 50, suffix: "+", label: "YEARS EXPERIENCE" },
+  { value: 4, suffix: "", label: "GLOBAL CITIES" },
+  { value: 5, suffix: "", label: "SERVICE AREAS" },
 ];
 
 function useCountUp(target: number, duration: number, inView: boolean) {
@@ -58,7 +57,7 @@ export default function StatsBand() {
       viewport={{ once: true, margin: "-80px" }}
     >
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
           {stats.map((stat, i) => (
             <div key={i} className="relative">
               {i > 0 && (

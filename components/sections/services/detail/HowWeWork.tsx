@@ -27,7 +27,7 @@ export default function HowWeWork({ eyebrow, headline, subtext, steps, imageSrc,
           {/* Left — steps */}
           <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.6, ease }} className="lg:col-span-7 flex flex-col gap-6">
             <div>
-              <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase mb-2">{eyebrow}</p>
+              <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase mb-2">{eyebrow}</p>
               <h2 className="font-sora font-bold text-[38px] leading-[1.15] tracking-[-0.5px] text-qterra-black">{headline}</h2>
               <p className="font-inter text-[16px] text-[#555] leading-[1.7] mt-3">{subtext}</p>
             </div>

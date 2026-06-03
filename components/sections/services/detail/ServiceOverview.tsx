@@ -25,7 +25,7 @@ export default function ServiceOverview({ eyebrow, headline, paragraphs, imageSr
           </motion.div>
           {/* Text right */}
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.6, ease }} className="lg:col-span-7 flex flex-col gap-5">
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase">{eyebrow}</p>
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase">{eyebrow}</p>
             <h2 className="font-sora font-bold text-[38px] leading-[1.15] tracking-[-0.5px] text-qterra-black">{headline}</h2>
             {paragraphs.map((p, i) => (
               <p key={i} className="font-inter text-[16px] text-[#444] leading-[1.75]">{p}</p>

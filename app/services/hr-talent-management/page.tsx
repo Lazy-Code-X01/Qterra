@@ -4,17 +4,15 @@ import ServiceOverview from "@/components/sections/services/detail/ServiceOvervi
 import WhatIsIncluded from "@/components/sections/services/detail/WhatIsIncluded";
 import HowWeWork from "@/components/sections/services/detail/HowWeWork";
 import WhyQTerraService from "@/components/sections/services/detail/WhyQTerraService";
-import RelatedServices from "@/components/sections/services/detail/RelatedServices";
 import CTABanner from "@/components/sections/CTABanner";
 import {
   UserCheck,
   GraduationCap,
-  FileText,
   BarChart2,
+  FileText,
   Globe2,
   Target,
   Shield,
-  Laptop,
 } from "lucide-react";
 
 export default function HRTalentManagementPage() {
@@ -71,14 +69,8 @@ export default function HRTalentManagementPage() {
           { icon: Shield, title: "Compliant & Reliable", description: "We ensure your HR operations are fully compliant with local regulations and consistently delivered to a high standard." },
         ]}
       />
-      <RelatedServices
-        services={[
-          { icon: BarChart2, number: "01", title: "Management Consulting", description: "Organizational strategy and transformation programs.", href: "/services/management-consulting" },
-          { icon: GraduationCap, number: "06", title: "Training & Capability", description: "Professional development and capacity building programs.", href: "/services/training-capability" },
-          { icon: Laptop, number: "04", title: "Digital Solutions", description: "HR technology and performance monitoring systems.", href: "/services/digital-solutions" },
-        ]}
-      />
-      <CTABanner />
+
+      <CTABanner minimal />
     </>
   );
 }

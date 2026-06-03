@@ -91,7 +91,7 @@ const flow: Record<string, Step> = {
   locations: {
     botMessages: [
       "QTerra operates across Africa with presence in:",
-      "🇳🇬 Lagos, Nigeria\n🇿🇦 Johannesburg, South Africa\n🇬🇭 Accra, Ghana\n🇧🇯 Cotonou, Benin",
+      "🇳🇬 Lagos, Nigeria\n🇿🇦 Johannesburg, South Africa\n🇨🇦 Toronto, Canada\n🇺🇸 Chicago, USA",
       "Is there anything else I can help you with?",
     ],
     quickReplies: ["Get in touch", "Explore services", "Done, thanks!"],
@@ -104,7 +104,7 @@ const flow: Record<string, Step> = {
   about: {
     botMessages: [
       "QTerra is an Integrated Strategy & Execution Firm founded in 2025.",
-      "We help organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development. We operate across Lagos, Johannesburg, Accra, and Benin.",
+      "We help organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development. We operate across Lagos, Johannesburg, Toronto, and Chicago.",
       "What would you like to know more about?",
     ],
     quickReplies: ["Our services", "Get in touch", "Our locations"],

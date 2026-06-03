@@ -33,7 +33,7 @@ const cards = [
     number: "04",
     name: "Human Capital & Talent Management",
     description:
-      "Workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
+      "Strategic workforce planning, talent acquisition, leadership development, performance management, and HR operations support.",
     href: "/services/human-capital",
   },
   {
@@ -62,7 +62,7 @@ export default function ServicesGrid() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.5, ease }}
           >
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase mb-3">
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase mb-3">
               What We Offer
             </p>
             <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-qterra-black">

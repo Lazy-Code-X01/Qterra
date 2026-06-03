@@ -23,7 +23,7 @@ export default function WhatIsIncluded({ eyebrow, headline, subtext, services }:
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.5, ease }} className="text-center mb-12">
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-olive uppercase mb-2">{eyebrow}</p>
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-olive uppercase mb-2">{eyebrow}</p>
           <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-qterra-black mt-2">{headline}</h2>
           <p className="font-inter text-[16px] text-[#555] leading-[1.7] mt-3 max-w-[560px] mx-auto">{subtext}</p>
         </motion.div>

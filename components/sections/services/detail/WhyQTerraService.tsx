@@ -21,7 +21,7 @@ export default function WhyQTerraService({ eyebrow, headline, points }: Props) {
     <section className="bg-qterra-black py-20">
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.5, ease }} className="text-center mb-12">
-          <p className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase mb-2">{eyebrow}</p>
+          <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase mb-2">{eyebrow}</p>
           <h2 className="font-sora font-bold text-[40px] leading-[1.1] tracking-[-1px] text-white mt-2">{headline}</h2>
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

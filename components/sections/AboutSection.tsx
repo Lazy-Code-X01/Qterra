@@ -38,7 +38,7 @@ export default function AboutSection() {
 
             {/* Stat card — top right */}
             <div className="absolute -top-6 -right-6 bg-[#A8D32E] rounded-[10px] px-4 py-3 shadow-lg">
-              <p className="font-sora font-bold text-2xl text-[#0D0F0D] leading-none">15+</p>
+              <p className="font-sora font-bold text-2xl text-[#0D0F0D] leading-none">50+</p>
               <p className="font-inter text-[11px] text-[#0D0F0D]/70 mt-1 leading-tight">
                 Years Combined
                 <br />
@@ -46,29 +46,6 @@ export default function AboutSection() {
               </p>
             </div>
 
-            {/* Quote card — bottom left */}
-            <div className="absolute -bottom-6 -left-6 bg-[#0D0F0D] rounded-xl px-5 py-4 shadow-xl max-w-[260px]">
-              <div className="flex items-center gap-2.5 mb-2">
-                <div className="relative h-9 w-9 rounded-full overflow-hidden shrink-0">
-                  <Image
-                    src="/logo.png"
-                    alt="QTerra Leadership"
-                    fill
-                    className="object-contain p-1"
-                  />
-                </div>
-                <div>
-                  <p className="font-inter font-semibold text-[13px] text-white leading-none">
-                    QTerra Leadership
-                  </p>
-                  <p className="font-inter text-[12px] text-white/50 mt-0.5">QTerra</p>
-                </div>
-              </div>
-              <p className="font-inter italic text-[13px] text-white/70 leading-[1.6]">
-                &ldquo;QTerra exists to close the gap between strategy and execution across
-                Africa.&rdquo;
-              </p>
-            </div>
           </motion.div>
 
           {/* RIGHT — Text */}
@@ -79,7 +56,7 @@ export default function AboutSection() {
             transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
             viewport={{ once: true, margin: '-80px' }}
           >
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#6B7C4A] uppercase">
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#6B7C4A] uppercase">
               About QTerra
             </p>
             <h2 className="font-sora font-bold text-[36px] leading-[1.15] tracking-[-0.5px] text-[#0D0F0D]">
@@ -91,7 +68,7 @@ export default function AboutSection() {
               private sectors.
             </p>
             <p className="font-inter text-base text-[#444] leading-[1.75]">
-              With offices in Lagos, Johannesburg, Accra, and Benin, we combine consulting
+              With offices in Lagos, Johannesburg, Toronto, and Chicago, we combine consulting
               expertise, financial advisory, project delivery support, and digital solutions to help
               organizations improve performance and achieve sustainable growth.
             </p>

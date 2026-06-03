@@ -39,7 +39,7 @@ export default function DeliveryModel() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.4, ease }}
-          className="font-inter font-semibold text-[11px] tracking-[2px] text-spark uppercase text-center mb-10"
+          className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase text-center mb-10"
         >
           The QTerra Integrated Delivery Model™
         </motion.p>

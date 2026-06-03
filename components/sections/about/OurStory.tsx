@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
 
 export default function OurStory() {
   return (
@@ -46,26 +45,6 @@ export default function OurStory() {
               <path d="M28 66 C38 46, 46 56, 56 36 C66 16, 74 26, 84 6" opacity="0.3" />
             </svg>
 
-            {/* Quote card — bottom left */}
-            <div className="absolute -bottom-6 -left-4 bg-[#ddeef8] rounded-xl px-5 py-4 shadow-md max-w-[265px]">
-              <div className="flex items-center gap-2.5 mb-2">
-                <div className="relative h-9 w-9 rounded-full overflow-hidden shrink-0">
-                  <Image
-                    src="/logo.png"
-                    alt="QTerra Leadership"
-                    fill
-                    className="object-contain p-1"
-                  />
-                </div>
-                <p className="font-inter font-semibold text-[13px] text-[#0D0F0D] leading-snug">
-                  QTerra Leadership,{" "}
-                  <span className="text-[#A8D32E]">QTerra</span>
-                </p>
-              </div>
-              <p className="font-inter italic text-[13px] text-[#333] leading-[1.6]">
-                &ldquo;QTerra exists to close the gap between strategy and execution across Africa.&rdquo;
-              </p>
-            </div>
           </motion.div>
 
           {/* RIGHT — Text */}
@@ -76,14 +55,14 @@ export default function OurStory() {
             transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
             viewport={{ once: true, margin: "-80px" }}
           >
-            <p className="font-inter font-semibold text-[11px] tracking-[2px] text-[#6B7C4A] uppercase">
+            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#6B7C4A] uppercase">
               Our Story
             </p>
             <h2 className="font-sora font-bold text-[42px] leading-[1.1] tracking-[-1px] text-[#0D0F0D]">
               We Were Built to Close the Gap Between Strategy and Execution.
             </h2>
             <p className="font-inter text-[14px] text-[#555] leading-[1.75]">
-              QTerra was founded on a simple but increasingly urgent observation: organizations across industries continue to invest heavily in strategy, transformation, technology, and project delivery, yet many still struggle to achieve sustained results. In many cases, the challenge is not ambition, capability, or investment. It is fragmentation.
+              QTerra was founded on a simple but increasingly urgent observation: organizations across industries continue to invest heavily in strategy, transformation, technology, project delivery, and organizational change, yet many still struggle to achieve sustained results. In many cases, the challenge is not ambition, capability, or investment. It is fragmentation.
             </p>
             <p className="font-inter text-[14px] text-[#555] leading-[1.75]">
               Strategy is disconnected from execution. Technology is deployed without adoption. Projects are delivered without fully realizing business value. Capability gaps remain long after engagements conclude. QTerra was established to close this gap.
@@ -94,12 +73,6 @@ export default function OurStory() {
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-5 mt-2">
-              <a href="/about#mission">
-                <button className="inline-flex items-center gap-2 bg-[#0D0F0D] text-white font-inter font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-[#1e231e] transition-colors duration-200">
-                  Our Mission
-                  <ArrowUpRight className="h-4 w-4" />
-                </button>
-              </a>
               <a href="#contact" className="inline-flex items-center gap-3 group">
                 <div className="h-10 w-10 rounded-full border border-[#0D0F0D]/30 flex items-center justify-center group-hover:bg-[#0D0F0D] transition-colors duration-200">
                   <svg width="11" height="13" viewBox="0 0 11 13" fill="currentColor" className="text-[#0D0F0D] group-hover:text-white transition-colors duration-200 ml-0.5">
