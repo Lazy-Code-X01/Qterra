@@ -59,8 +59,8 @@ export default function AboutSection() {
             <p className="font-inter font-semibold text-[13px] tracking-[2px] text-[#6B7C4A] uppercase">
               About QTerra
             </p>
-            <h2 className="font-sora font-bold text-[36px] leading-[1.15] tracking-[-0.5px] text-[#0D0F0D]">
-              An Integrated Firm Built for Africa&apos;s Most Complex Challenges.
+            <h2 className="font-sora font-bold text-[26px] leading-[1.2] tracking-[-0.5px] text-[#0D0F0D]">
+              An Integrated Firm Built to Solve Complex Challenges. Designed to Deliver Results. Structured to Sustain Transformation.
             </h2>
             <p className="font-inter text-base text-[#444] leading-[1.75]">
               QTerra is an integrated professional services firm providing strategic advisory,

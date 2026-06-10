@@ -45,10 +45,8 @@ const cards = [
   },
 ];
 
-const DEFAULT_ACTIVE = 1; // Project Delivery
-
 export default function ServicesGrid() {
-  const [activeIndex, setActiveIndex] = useState(DEFAULT_ACTIVE);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
     <section className="bg-white py-20">
@@ -84,7 +82,7 @@ export default function ServicesGrid() {
         {/* Card grid */}
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
-          onMouseLeave={() => setActiveIndex(DEFAULT_ACTIVE)}
+          onMouseLeave={() => setActiveIndex(null)}
         >
           {cards.map((card, index) => {
             const isActive = activeIndex === index;
