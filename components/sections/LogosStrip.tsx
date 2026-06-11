@@ -8,7 +8,7 @@ const partners = [
     name: "Foundry & Field",
     descriptor: "Strategic Development Advisors & Delivery Specialists",
     logo: "/images/partners/foundry-field.png",
-    url: "https://foundryfieldco.com",
+    url: "https://www.valeandfoundry.com",
     darken: true,
     logoHeight: "h-14",
     logoWidth: "max-w-[160px]",
