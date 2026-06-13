@@ -71,17 +71,6 @@ export default function OurStory() {
               As an Integrated Strategy &amp; Execution Firm, QTerra helps organizations move beyond recommendations toward measurable, sustained performance. The firm integrates strategic advisory, disciplined execution, AI-enabled decision support, digital enablement, and capability development into a unified delivery model designed to produce tangible business outcomes.
             </p>
 
-            {/* CTAs */}
-            <div className="flex flex-wrap items-center gap-5 mt-2">
-              <a href="#contact" className="inline-flex items-center gap-3 group">
-                <div className="h-10 w-10 rounded-full border border-[#0D0F0D]/30 flex items-center justify-center group-hover:bg-[#0D0F0D] transition-colors duration-200">
-                  <svg width="11" height="13" viewBox="0 0 11 13" fill="currentColor" className="text-[#0D0F0D] group-hover:text-white transition-colors duration-200 ml-0.5">
-                    <path d="M0 0L11 6.5L0 13V0Z" />
-                  </svg>
-                </div>
-                <span className="font-inter font-semibold text-sm text-[#0D0F0D]">Intro Video</span>
-              </a>
-            </div>
           </motion.div>
 
         </div>

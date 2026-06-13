@@ -39,14 +39,6 @@ export default function TopBar() {
           <span>info@qterragroup.com</span>
         </a>
 
-        {/* Right: Socials */}
-        <div className="flex items-center gap-4 shrink-0">
-          <div className="flex items-center gap-3">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="LinkedIn">
-              <LinkedinIcon />
-            </a>
-          </div>
-        </div>
 
       </div>
     </div>

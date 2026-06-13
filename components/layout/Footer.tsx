@@ -41,22 +41,6 @@ export default function Footer() {
             <p className="font-inter text-sm text-white/45 leading-[1.6] mt-3 max-w-[220px]">
               Integrated Strategy &amp; Execution. Helping organizations translate strategy into measurable, sustained results.
             </p>
-            <div className="flex items-center gap-4 mt-5">
-              {[
-                { Icon: LinkedinIcon, href: "https://linkedin.com", label: "LinkedIn" },
-              ].map(({ Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="text-white/40 hover:text-spark transition-colors duration-200"
-                >
-                  <Icon />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Col 2 — Company */}

@@ -14,7 +14,7 @@ const cards = [
     icon: Phone,
     title: "Call us",
     // Replace with real QTerra phone numbers
-    lines: ["To be updated"],
+    lines: ["+234 810 688 5938"],
   },
   {
     icon: Mail,
