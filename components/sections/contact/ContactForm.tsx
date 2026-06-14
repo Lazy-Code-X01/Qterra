@@ -168,7 +168,7 @@ export default function ContactForm() {
             {isError && (
               <p className="font-inter text-[13px] text-red-600">
                 Something went wrong. Please try again or email us at{" "}
-                <a href="mailto:info@qterragroup.com" className="underline">info@qterragroup.com</a>
+                <a href="mailto:email@qterragroup.com" className="underline">email@qterragroup.com</a>
               </p>
             )}
 

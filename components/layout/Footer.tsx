@@ -75,14 +75,13 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <p className="font-inter font-semibold text-[13px] tracking-[2px] text-white/30 uppercase">Get In Touch</p>
             <div className="flex flex-col gap-3">
-              <a href="mailto:info@qterragroup.com" className="flex items-center gap-2.5 text-sm text-white/55 hover:text-white transition-colors">
+              <a href="mailto:email@qterragroup.com" className="flex items-center gap-2.5 text-sm text-white/55 hover:text-white transition-colors">
                 <Mail className="h-3.5 w-3.5 shrink-0" />
-                info@qterragroup.com
+                email@qterragroup.com
               </a>
-              {/* Replace with real QTerra phone number */}
               <div className="flex items-center gap-2.5 text-sm text-white/55">
                 <Phone className="h-3.5 w-3.5 shrink-0" />
-                +1 (234) 567 8900
+                +234 810 688 5938
               </div>
               {["Lagos, Nigeria", "Johannesburg, South Africa", "Toronto, Canada", "Chicago, USA"].map((city) => (
                 <div key={city} className="flex items-center gap-2.5 text-sm text-white/55">
