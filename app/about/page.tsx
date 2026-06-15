@@ -2,7 +2,7 @@ import AboutHero from "@/components/sections/about/AboutHero";
 import OurStory from "@/components/sections/about/OurStory";
 import MissionVision from "@/components/sections/about/MissionVision";
 import CoreValues from "@/components/sections/about/CoreValues";
-import TeamSection from "@/components/sections/about/TeamSection";
+// import TeamSection from "@/components/sections/about/TeamSection";
 import CTABanner from "@/components/sections/CTABanner";
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default function AboutPage() {
       <OurStory />
       <MissionVision />
       <CoreValues />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <CTABanner />
     </>
   );

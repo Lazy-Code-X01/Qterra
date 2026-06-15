@@ -1,19 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const ease = [0.25, 0.1, 0.25, 1] as const;
 
 const cards = [
   {
-    icon: MapPin,
-    title: "Visit us",
-    lines: ["Lagos · Johannesburg", "Toronto · Chicago"],
-  },
-  {
     icon: Phone,
     title: "Call us",
-    // Replace with real QTerra phone numbers
     lines: ["+234 810 688 5938"],
   },
   {
@@ -27,7 +21,7 @@ export default function ContactInfo() {
   return (
     <section className="bg-white py-10">
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
           {cards.map((card, i) => {
             const Icon = card.icon;
             return (

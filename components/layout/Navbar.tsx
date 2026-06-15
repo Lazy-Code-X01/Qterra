@@ -209,7 +209,7 @@ export default function Navbar() {
                         Why QTerra
                       </p>
                       <h4 className="font-sora font-bold text-lg text-white leading-snug mb-3">
-                        Integrated solutions across Africa.
+                        Integrated solutions delivered globally.
                       </h4>
                       <p className="text-xs text-white/45 font-inter font-light leading-relaxed">
                         From Lagos to Chicago: one partner for strategy, execution, and capability development.

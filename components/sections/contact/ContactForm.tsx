@@ -113,9 +113,8 @@ export default function ContactForm() {
 
           {/* Heading */}
           <div className="text-center mb-8 relative z-10">
-            <p className="font-inter font-semibold text-[13px] tracking-[2px] text-spark uppercase mb-3">Send Us a Message</p>
             <h2 className="font-sora font-bold text-[28px] leading-[1.25] tracking-[-0.5px] text-white">
-              Leave us a message<br />for any information.
+              Send Us a Message
             </h2>
           </div>
 
