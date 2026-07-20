@@ -17,9 +17,9 @@ export default function TopBar() {
             <span>+234 810 688 5938</span>
           </a>
           <Divider />
-          <a href="mailto:email@qterragroup.com" className="flex items-center gap-1.5 hover:text-white transition-colors shrink-0">
+          <a href="mailto:info@qterragroup.com" className="flex items-center gap-1.5 hover:text-white transition-colors shrink-0">
             <Mail className="h-3 w-3 text-spark" />
-            <span>email@qterragroup.com</span>
+            <span>info@qterragroup.com</span>
           </a>
           <Divider />
           <div className="flex items-center gap-1.5 shrink-0">
@@ -29,9 +29,9 @@ export default function TopBar() {
         </div>
 
         {/* Mobile: email only */}
-        <a href="mailto:email@qterragroup.com" className="flex md:hidden items-center gap-1.5 hover:text-white transition-colors">
+        <a href="mailto:info@qterragroup.com" className="flex md:hidden items-center gap-1.5 hover:text-white transition-colors">
           <Mail className="h-3 w-3 text-spark" />
-          <span>email@qterragroup.com</span>
+          <span>info@qterragroup.com</span>
         </a>
 
 

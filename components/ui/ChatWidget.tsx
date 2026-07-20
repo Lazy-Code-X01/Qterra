@@ -77,7 +77,7 @@ const flow: Record<string, Step> = {
   },
   contact: {
     botMessages: [
-      "Sure! The best way to reach us is via email at email@qterragroup.com.",
+      "Sure! The best way to reach us is via email at info@qterragroup.com.",
       "You can also fill out our contact form at qterragroup.com/contact and a team member will respond within 24–48 hours.",
       "Is there anything else you'd like to know?",
     ],
@@ -116,7 +116,7 @@ const flow: Record<string, Step> = {
   },
   bye: {
     botMessages: [
-      "Thanks for stopping by! 🌿 Feel free to reach out anytime at email@qterragroup.com.",
+      "Thanks for stopping by! 🌿 Feel free to reach out anytime at info@qterragroup.com.",
       "Have a great day!",
     ],
     quickReplies: ["Start over"],

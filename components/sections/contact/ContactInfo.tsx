@@ -13,7 +13,7 @@ const cards = [
   {
     icon: Mail,
     title: "Email us",
-    lines: ["email@qterragroup.com"],
+    lines: ["info@qterragroup.com"],
   },
 ];
 

@@ -70,9 +70,9 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <p className="font-inter font-semibold text-[13px] tracking-[2px] text-white/30 uppercase">Get In Touch</p>
             <div className="flex flex-col gap-3">
-              <a href="mailto:email@qterragroup.com" className="flex items-center gap-2.5 text-sm text-white/55 hover:text-white transition-colors">
+              <a href="mailto:info@qterragroup.com" className="flex items-center gap-2.5 text-sm text-white/55 hover:text-white transition-colors">
                 <Mail className="h-3.5 w-3.5 shrink-0" />
-                email@qterragroup.com
+                info@qterragroup.com
               </a>
               <div className="flex items-center gap-2.5 text-sm text-white/55">
                 <Phone className="h-3.5 w-3.5 shrink-0" />
