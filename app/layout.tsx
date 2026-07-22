@@ -22,7 +22,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.qterragroup.com'),
-  title: "QTerra | Integrated Professional Services in Africa",
+  title: "QTerra | Integrated Professional Services",
   description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
   icons: {
     icon: [
@@ -35,20 +35,20 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   openGraph: {
     url: 'https://www.qterragroup.com',
-    title: "QTerra | Integrated Professional Services in Africa",
+    title: "QTerra | Integrated Professional Services",
     description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
     images: [
       {
         url: 'https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png',
         width: 1200,
         height: 630,
-        alt: 'QTerra | Integrated Professional Services in Africa',
+        alt: 'QTerra | Integrated Professional Services',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "QTerra | Integrated Professional Services in Africa",
+    title: "QTerra | Integrated Professional Services",
     description: "QTerra is an Integrated Strategy &amp; Execution Firm helping organizations translate strategy into measurable and sustained results through integrated advisory, disciplined execution, AI-enabled decision support, and capability development.",
     images: ['https://res.cloudinary.com/dioiyb833/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1779467423/qterra-og_lc12nj.png'],
   },

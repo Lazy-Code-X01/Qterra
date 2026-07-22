@@ -7,7 +7,7 @@ import CTABanner from "@/components/sections/CTABanner";
 
 export const metadata = {
   title: "About QTerra | Integrated Professional Services",
-  description: "Learn about QTerra, our story, mission, vision, values, and the team behind Africa's integrated professional services firm.",
+  description: "Learn about QTerra, our story, mission, vision, values, and the team behind QTerra's integrated professional services firm.",
 };
 
 export default function AboutPage() {

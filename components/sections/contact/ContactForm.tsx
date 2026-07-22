@@ -142,14 +142,13 @@ export default function ContactForm() {
             </div>
 
             <div>
-              <select className={inputClass} value={form.service} onChange={(e) => setForm({ ...form, service: e.target.value })}>
+              <select className={`${inputClass} [&>option]:bg-[#1a1f1a] [&>option]:text-white`} value={form.service} onChange={(e) => setForm({ ...form, service: e.target.value })}>
                 <option value="">Service of Interest*</option>
-                <option>Management Consulting & Business Advisory</option>
-                <option>Financial & Investment Advisory</option>
-                <option>Project Management & Implementation</option>
-                <option>Digital Solutions & Business Tools</option>
-                <option>HR & Talent Management</option>
-                <option>Training & Capability Development</option>
+                <option>Strategy & Transformation</option>
+                <option>Project Delivery & Implementation</option>
+                <option>Digital Solutions & Analytics</option>
+                <option>Human Capital & Talent Management</option>
+                <option>Training & Capability Building</option>
                 <option>General Enquiry</option>
               </select>
               {errors.service && <p className={errorClass}>{errors.service}</p>}
