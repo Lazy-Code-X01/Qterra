@@ -45,14 +45,15 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: "QTerra <noreply@qterragroup.com>",
       to: [email],
-      subject: "We received your message — QTerra",
+      subject: "We've Received Your Enquiry",
       html: `
-        <h2>Thank you for reaching out, ${fullName}.</h2>
-        <p>We have received your enquiry regarding <strong>${service}</strong> and a member of the QTerra team will be in touch within 24-48 hours.</p>
+        <p>Dear ${fullName},</p>
+        <p>Thank you for contacting QTerra. We've received your enquiry and will respond as soon as possible.</p>
+        <p>Depending on the nature of your enquiry, please allow up to three business days for a response. Rest assured that our team will carefully review your message so we can provide the thoughtful and thorough response you deserve.</p>
+        <p>Thank you for your patience.</p>
         <br/>
-        <p>Best regards,</p>
+        <p>Warm regards,</p>
         <p><strong>The QTerra Team</strong></p>
-        <p>www.qterragroup.com</p>
       `,
     });
 
