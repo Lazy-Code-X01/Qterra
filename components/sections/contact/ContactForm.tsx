@@ -175,7 +175,7 @@ export default function ContactForm() {
               className="w-full bg-spark text-qterra-black font-inter font-semibold text-[15px] py-3.5 rounded-full hover:bg-[#96bc28] transition-colors duration-200 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2">
               {isLoading ? (
                 <><Loader2 className="h-4 w-4 animate-spin" />Sending...</>
-              ) : "Send Message →"}
+              ) : "Send Message"}
             </button>
           </form>
         </motion.div>
