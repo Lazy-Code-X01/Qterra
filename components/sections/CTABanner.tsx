@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 export default function CTABanner({ minimal = false }: { minimal?: boolean }) {
   return (
@@ -103,7 +102,6 @@ export default function CTABanner({ minimal = false }: { minimal?: boolean }) {
               <a href="/services">
                 <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-semibold text-[15px] px-8 py-3.5 rounded-lg border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
                   Explore Our Services
-                  <ArrowRight className="h-4 w-4" />
                 </button>
               </a>
             )}

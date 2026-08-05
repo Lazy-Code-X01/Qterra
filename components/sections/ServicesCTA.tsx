@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 export default function ServicesCTA() {
   return (
@@ -24,7 +23,6 @@ export default function ServicesCTA() {
         <a href="/contact" className="shrink-0">
           <button className="inline-flex items-center gap-2 bg-[#A8D32E] text-[#0D0F0D] font-inter font-semibold text-sm px-7 py-3.5 rounded-lg hover:bg-[#bce03e] transition-colors duration-200 whitespace-nowrap">
             Schedule a Consultation
-            <ArrowRight className="h-4 w-4" />
           </button>
         </a>
       </motion.div>

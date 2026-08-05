@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BarChart2, ClipboardList, Laptop, Users, GraduationCap, ArrowRight } from "lucide-react";
+import { BarChart2, ClipboardList, Laptop, Users, GraduationCap } from "lucide-react";
 
 const services = [
   {
@@ -75,7 +75,6 @@ export default function ServicesSection() {
                 className="inline-flex items-center gap-1.5 font-inter font-semibold text-sm text-[#3F4E2E] hover:underline transition-all mt-2"
               >
                 View All Services
-                <ArrowRight className="h-4 w-4" />
               </a>
             </motion.div>
 
@@ -104,10 +103,9 @@ export default function ServicesSection() {
                     </p>
                     <a
                       href={svc.href}
-                      className="inline-flex items-center gap-1 font-inter font-semibold text-[13px] text-[#6B7C4A] mt-3 group-hover:gap-2 transition-all"
+                      className="inline-flex items-center font-inter font-semibold text-[13px] text-[#6B7C4A] mt-3 transition-all"
                     >
                       Learn more
-                      <ArrowRight className="h-3.5 w-3.5" />
                     </a>
                   </motion.div>
                 );

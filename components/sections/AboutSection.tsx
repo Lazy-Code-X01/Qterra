@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { CheckCircle2, PlayCircle, ArrowRight } from 'lucide-react';
+import { CheckCircle2, PlayCircle } from 'lucide-react';
 
 const bullets = [
   'Strategic Advisory & Transformation',
@@ -95,7 +95,6 @@ export default function AboutSection() {
               <a href="#about">
                 <button className="inline-flex items-center gap-2 bg-[#0D0F0D] text-white font-inter font-semibold text-sm px-6 py-3 rounded-lg hover:bg-[#1a1f1a] transition-colors duration-200">
                   Learn More About Us
-                  <ArrowRight className="h-4 w-4" />
                 </button>
               </a>
               <a href="#about">

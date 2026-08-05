@@ -8,12 +8,14 @@ const cards = [
   {
     icon: Phone,
     title: "Call us",
-    lines: ["+234 810 688 5938"],
+    label: "+234 810 688 5938",
+    href: "https://wa.me/2348106885938",
   },
   {
     icon: Mail,
     title: "Email us",
-    lines: ["info@qterragroup.com"],
+    label: "info@qterragroup.com",
+    href: "mailto:info@qterragroup.com",
   },
 ];
 
@@ -25,26 +27,27 @@ export default function ContactInfo() {
           {cards.map((card, i) => {
             const Icon = card.icon;
             return (
-              <motion.div
+              <motion.a
                 key={card.title}
+                href={card.href}
+                target={card.href.startsWith("https") ? "_blank" : undefined}
+                rel={card.href.startsWith("https") ? "noopener noreferrer" : undefined}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: i * 0.1, ease }}
-                className="border border-[#e8e8e4] rounded-2xl p-7 flex flex-col gap-4"
+                className="group border border-[#e8e8e4] rounded-2xl p-7 flex flex-col gap-4 hover:border-[#A8D32E] hover:shadow-[0_4px_24px_rgba(168,211,46,0.1)] transition-all duration-300"
               >
-                <div className="h-11 w-11 rounded-full bg-qterra-black flex items-center justify-center shrink-0">
-                  <Icon className="h-5 w-5 text-spark" />
+                <div className="h-11 w-11 rounded-full bg-qterra-black flex items-center justify-center shrink-0 group-hover:bg-[#A8D32E] transition-colors duration-300">
+                  <Icon className="h-5 w-5 text-spark group-hover:text-qterra-black transition-colors duration-300" />
                 </div>
                 <div>
                   <p className="font-sora font-semibold text-[16px] text-qterra-black">{card.title}</p>
-                  <div className="mt-1.5 flex flex-col gap-0.5">
-                    {card.lines.map((line, j) => (
-                      <p key={j} className="font-inter text-[14px] text-[#666] leading-[1.6]">{line}</p>
-                    ))}
-                  </div>
+                  <p className="font-inter text-[14px] text-[#666] leading-[1.6] mt-1.5 group-hover:text-[#333] transition-colors duration-300">
+                    {card.label}
+                  </p>
                 </div>
-              </motion.div>
+              </motion.a>
             );
           })}
         </div>

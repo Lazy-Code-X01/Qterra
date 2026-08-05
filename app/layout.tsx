@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
 import "./globals.css";
-import TopBar from "@/components/layout/TopBar";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingActionButton from "@/components/ui/FloatingActionButton";
@@ -64,7 +63,6 @@ export default function RootLayout({
       <body
         className={`${sora.variable} ${inter.variable} min-h-screen flex flex-col antialiased`}
       >
-        <TopBar />
         <Navbar />
         <main className="flex-grow bg-qterra-black">
           {children}

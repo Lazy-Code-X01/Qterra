@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { CalendarDays, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const HERO_IMAGE_PATH = "/images/qterra_hero_person.png";
@@ -22,12 +21,12 @@ export default function Hero() {
     <section
       id="home"
       className="relative w-full bg-qterra-black overflow-hidden"
-      style={{ minHeight: "calc(100vh - 98px)" }}
+      style={{ minHeight: "calc(100vh - 64px)" }}
     >
       {/* Background glow */}
       <div className="absolute top-1/3 left-0 w-[500px] h-[500px] bg-forest/8 rounded-full blur-[160px] pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-0 items-center h-full" style={{ minHeight: "calc(100vh - 98px)" }}>
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-0 items-center h-full" style={{ minHeight: "calc(100vh - 64px)" }}>
 
         {/* ── LEFT COLUMN ── */}
         <div className="flex flex-col justify-center space-y-8 py-20 lg:py-0 z-10">
@@ -76,13 +75,11 @@ export default function Hero() {
             <a href="/contact">
               <button className="inline-flex items-center gap-2 bg-spark text-qterra-black font-inter font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#bce03e] transition-colors duration-200">
                 Get Consulting
-                <CalendarDays className="h-4 w-4" />
               </button>
             </a>
             <a href="/services">
               <button className="inline-flex items-center gap-2 bg-transparent text-white font-inter font-medium text-sm px-6 py-3 rounded-full border border-white/20 hover:border-white/50 hover:bg-white/5 transition-all duration-200">
                 Our Services
-                <ArrowRight className="h-4 w-4" />
               </button>
             </a>
           </motion.div>

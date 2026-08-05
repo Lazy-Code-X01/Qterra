@@ -74,10 +74,10 @@ export default function Footer() {
                 <Mail className="h-3.5 w-3.5 shrink-0" />
                 info@qterragroup.com
               </a>
-              <div className="flex items-center gap-2.5 text-sm text-white/55">
+              <a href="https://wa.me/2348106885938" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 text-sm text-white/55 hover:text-white transition-colors">
                 <Phone className="h-3.5 w-3.5 shrink-0" />
                 +234 810 688 5938
-              </div>
+              </a>
               {["Lagos, Nigeria", "Johannesburg, South Africa", "Toronto, Canada", "Chicago, USA"].map((city) => (
                 <div key={city} className="flex items-center gap-2.5 text-sm text-white/55">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
